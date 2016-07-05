@@ -1,0 +1,33 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14;
+  color: #dddddd;
+  background: #101010;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+a {
+  cursor: pointer;
+  color: #337AB7;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#005096;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div.hide {
+  display: none;
+}
+
+.displayText {
+  color: #dddddd;
+}
