@@ -1,5 +1,4 @@
 <!-- Heavily inspired by Kevin Law :) -->
-
 <html>
 <head>
   <title>Henry Quinn</title>
@@ -10,10 +9,10 @@
 
 <body>
   <div class="container-fluid">
-    <h5><span>Last login: Sun Mar 13 12:13:16 2016 from <?php echo $_SERVER['REMOTE_ADDR']; ?>
-      <br>Welcome to CrashTheBot.net!
-      <br>[user@crashthebot ~]$<span class="command"></span>
-    </span></h5>
+    <h5><span id="lastLogin"></span><?php echo $_SERVER['REMOTE_ADDR']; ?>
+      <br>Welcome to HenryNeeds.coffee!
+      <br>[hquinn@HenryNeeds ~]$<span class="command"></span>
+    </h5>
 
     <div class="ls hide">
       <div class="row">
@@ -22,6 +21,7 @@
           <h5><a href="mailto:henryquinniv@gmail.com">HenryQuinnIV@gmail.com</a> / <a href="https://github.com/quinncuatro">GitHub: Quinncuatro</a> / <a href="http://www.linkedin.com/in/henryquinniv">LinkedIn: HenryQuinnIV</a></h5>
         </div>
       </div>
+
 <!-- EDUCATION --> 
       <h4>Education:</h4>
       <div class="row">
@@ -38,10 +38,12 @@
         </div>
       </div>
       <div class="row">
-        <ul>
-          <li>Specialization in Cyber Security</li>
-          <li>Champlain College Rock Climbing Club</li>
-        </ul>
+        <div class="col-md-6 col-sm-12">
+          <ul>
+            <li>Specialization in Cyber Security</li>
+            <li>Champlain College Rock Climbing Club</li>
+          </ul>
+        </div>
       </div>
 
 <!-- PROJECTS -->
@@ -79,6 +81,14 @@
       </div>
 <!-- WORK EXPERIENCE -->
       <h4>Work Experience</h4>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 text-left">
+          <p class="bold">Job Title Job Title</p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-right">
+          <p>Date - Date</p>
+        </div>
+      </div>
     </div>
   </div>
 </body>

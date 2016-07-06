@@ -31,3 +31,7 @@ div.hide {
 .displayText {
   color: #dddddd;
 }
+
+.bold {
+  font-weight: bold;
+}
