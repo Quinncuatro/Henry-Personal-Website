@@ -35,3 +35,21 @@ div.hide {
 .bold {
   font-weight: bold;
 }
+
+.sectionTitle {
+  padding: 0;
+}
+
+.title {
+  text-align: left;
+}
+
+.date {
+  text-align: right;
+}
+
+@media screen and (max-width : 786px) {
+  .date {
+    text-align: left;
+  }
+}
