@@ -19,7 +19,9 @@ var hours = zerosAreHard(now.getHours());
 var minutes = zerosAreHard(now.getMinutes());
 var seconds = zerosAreHard(now.getSeconds());
 var year = now.getFullYear();
-$("#lastLogin").append("Last login: " + day + " " + month + " " + date + " " + hours + ":" + minutes + ":" + seconds + " " + year);
+
+$("#currentLogin").append("Current login: " + day + " " + month + " " + date + " " + hours +
+":" + minutes + ":" + seconds + " " + year);
 
 // Type out strings on screen
 $(".command").typed({
