@@ -22,11 +22,31 @@ var year = now.getFullYear();
 $("#lastLogin").append("Last login: " + day + " " + month + " " + date + " " + hours + ":" + minutes + ":" + seconds + " " + year);
 
 // Type out strings on screen
-  $(".command").typed({
-    strings: [" whoami"],
-    typeSpeed: 60,
-    loop: false,
-  }).delay(1775).queue(function(next) {
-    $(".ls").removeClass('hide');
-  });
+$(".command").typed({
+  strings: [" whoami"],
+  typeSpeed: 60,
+  loop: false,
+}).delay(1775).queue(function(next) {
+  $(".ls").removeClass('hide');
+});
+
+var myEmail = "HenryQuinnIV"+String.fromCharCode(64)+"gmail"+".com";
+
+function addHiddenLinks() {
+  var elements = document.getElementsByClassName('hiddenEmailLink');
+  for(var i = 0; i < elements.length; i++) {
+    elements[i].href += myEmail;
+  }
+}
+
+function addHiddenHTML() {
+  var elements = document.getElementsByClassName('hiddenEmail');
+  for(var i = 0; i < elements.length; i++) {
+    elements[i].innerHTML += myEmail;
+  }
+}
+
+addHiddenLinks();
+addHiddenHTML();
+
 });
