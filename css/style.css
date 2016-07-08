@@ -5,7 +5,12 @@ body {
   background: #101010;
 }
 
-h4 {
+h1, h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h3 {
   text-decoration: underline;
 }
 
@@ -38,6 +43,7 @@ div.hide {
 
 .sectionTitle {
   padding: 0;
+  text-decoration: none;
 }
 
 .title {
