@@ -82,13 +82,36 @@
 <!-- WORK EXPERIENCE -->
       <h4>Work Experience</h4>
       <div class="row">
-        <div class="col-md-3 col-sm-6 text-left">
-          <p class="bold">Job Title Job Title</p>
+        <div class="col-md-3 col-sm-8 text-left">
+          <p class="bold">United States District Court, District of Connecticut
+          <br>Programmer / Analyst</p>
         </div>
-        <div class="col-md-3 col-sm-6 text-right">
-          <p>Date - Date</p>
+        <div class="col-md-3 col-sm-4 text-right">
+          <p class="bold">May 2015 - Present</p>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <p>I create full stack web applications and automate workflows for a number of departments. As a database administrator, I help manage several Red Hat servers running Informix and CM/ECF instances. Occasionally I craft complex, multi table queries to populate data reports for our Magistrate and District Judges.</p>
+        </div>
+      </div>
+      
+
+      <div class="row">
+        <div class="col-md-3 col-sm-8 text-left">
+          <p class="bold">Place Of Work
+          <br>Job Title</p>
+        </div>
+        <div class="col-md-3 col-sm-4 text-right">
+          <p class="bold">Date - Date</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <p>Job Description</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </body>
