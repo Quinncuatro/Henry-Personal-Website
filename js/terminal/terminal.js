@@ -43,12 +43,34 @@
 })(jQuery);
 
 jQuery(document).ready(function($) {
-    $('#quinnTerm').tilda(function(command, terminal) {
-	command = command.toLowerCase();
-	if(command === "help") {
-	    terminal.echo('Type \'help\' to see this list.\n\nclear - Clears screen\nhelp - Shows command list\nweather - Gives forecast');
-	} else {
-    	terminal.echo('you type command "' + command + '"');
-	}
+
+  var owmlat;
+  var owmlng;
+  var city;
+  var temp;
+  var condition;
+
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      owmlat = position.coords.latitude;
+      owmlng = position.coords.longitude;
+      $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + owmlat + "&lon=" + owmlng + "&units=imperial&appid=5a568e3028dd86de7e8e40c01bcb98d0").then(function(result) {
+        city = result.name;
+        temp = result.main.temp;
+        condition = result.weather[0].main.toLowerCase();
+      });
     });
+  }
+
+  $('#quinnTerm').tilda(function(command, terminal) {
+    command = command.toLowerCase();
+    if(command === "help") {
+      terminal.echo('CMD     - DESC\n--------------\nclear   - Clears screen\nhelp    - Shows command list\nweather - Gives forecast\n--------------');
+    } else if(command === "weather") {
+      terminal.echo('It is ' + temp + ' degrees and ' + condition + ' in ' + city + '.');
+    } else {
+      terminal.echo('you type command "' + command + '"');
+    }
+  });
 });
+
