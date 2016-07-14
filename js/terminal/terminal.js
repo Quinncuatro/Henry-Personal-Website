@@ -57,7 +57,7 @@ jQuery(document).ready(function($) {
       $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + owmlat + "&lon=" + owmlng + "&units=imperial&appid=5a568e3028dd86de7e8e40c01bcb98d0").then(function(result) {
         city = result.name;
         temp = result.main.temp;
-        condition = result.weather[0].main.toLowerCase();
+        condition = result.weather[0].main;
       });
     });
   }
@@ -67,7 +67,7 @@ jQuery(document).ready(function($) {
     if(command === "help") {
       terminal.echo('CMD     - DESC\n--------------\nclear   - Clears screen\nhelp    - Shows command list\nweather - Gives forecast\n--------------');
     } else if(command === "weather") {
-      terminal.echo('It is ' + temp + ' degrees and ' + condition + ' in ' + city + '.');
+      terminal.echo('City - ' + city + '\nTemp - ' + temp + '&#8457;' + '\nCond - ' + condition);
     } else {
       terminal.echo('you type command "' + command + '"');
     }
