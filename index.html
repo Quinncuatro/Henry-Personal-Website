@@ -1,5 +1,6 @@
 <!-- Heavily inspired by Kevin Law :) -->
 <html>
+
 <head>
   <meta name="author" content="Henry Quinn">
   <meta name="description" content="The personal resume site of Henry Edward Quinn IV">
@@ -8,10 +9,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Henry Quinn</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
-  <link href="css/terminal/jquery.terminal.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/custom/style.css" type="text/css"/>
+  <link href="css/terminal/jquery.terminal.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/custom/style.css" type="text/css" />
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script src="js/typed/js/typed.js"></script>
   <!--<script src="js/terminal/jquery.terminal.min.js"></script>
@@ -22,211 +24,264 @@
 <body>
   <div id="quinnTerm"></div>
   <div class="container-fluid">
-    <div class="row"><div class="col-md-3 col-sm-0"></div><div class="col-md-6 col-sm-12">
+    <div class="row">
+      <div class="col-md-3 col-sm-0"></div>
+      <div class="col-md-6 col-sm-12">
 
-      <div class="row">
-        <div class="col-md-8 text-left sectionTitle">
-          <h5><span id="currentLogin"></span><br>
-          Welcome to HenryNeeds.coffee!<br>
-          [hquinn@HenryNeeds ~]$<span class="command"></span>
-          </h5>
-        </div>
-        <!--<div class="col-md-6 text-right sectionTitle">
+        <div class="row">
+          <div class="col-md-8 text-left sectionTitle">
+            <h5>
+              <span id="currentLogin"></span>
+              <br> Welcome to HenryNeeds.coffee!
+              <br> [hquinn@HenryNeeds ~]$
+              <span class="command"></span>
+            </h5>
+          </div>
+          <!--<div class="col-md-6 text-right sectionTitle">
           <p>Toggle Terminal With '~' Key</p>
         </div>-->
-      </div>
+        </div>
 
-    <div class="ls hide">
-      <div class="row">
-      	  <h1 class="sectionTitle">Henry Quinn IV</h1>
-      	  <h3 class="sectionTitle">Full Stack Web Developer</h3>
-          <h5><a class="hiddenEmailLink" href="mailto:"><span class="hiddenEmail"></span></a> / <a href="https://github.com/quinncuatro" target="_blank">GitHub: Quinncuatro</a> / <a href="http://www.linkedin.com/in/henryquinniv" target="_blank">LinkedIn: HenryQuinnIV</a></h5>
-      </div>
+        <div class="ls hide">
+          <div class="row">
+            <h1 class="sectionTitle">Henry Quinn IV</h1>
+            <h3 class="sectionTitle">Full Stack Web Developer</h3>
+            <h5>
+              <a class="hiddenEmailLink" href="mailto:">
+                <span class="hiddenEmail"></span>
+              </a> /
+              <a href="https://github.com/quinncuatro" target="_blank">GitHub: Quinncuatro</a> /
+              <a href="http://www.linkedin.com/in/henryquinniv" target="_blank">LinkedIn: HenryQuinnIV</a>
+            </h5>
+          </div>
 
-      <div class="row">
-        <hr>
-        <hr>
-      </div>
+          <div class="row">
+            <hr>
+            <hr>
+          </div>
 
-<!-- WORK EXPERIENCE -->
-      <div class="row">
-        <h3>Work Experience:</h3>
-        <div class="col-md-6 col-sm-8 title sectionTitle">
-          <p class="bold">United States District Court, District of Connecticut
-          <br>Programmer</p>
-        </div>
-        <div class="col-md-6 col-sm-4 date sectionTitle">
-          <p class="bold">March 2017 - Present</p>
-        </div>
-      </div>
-      <div class="row">
-        <p>- Developing web based software solutions to common problems in jury processes.<br>
-        - Transitioning in-house applications to container based architectures with Docker for easier deployment.<br>
-        - Communicating with other programmers in the judiciary about emerging technologies, containerizing applications, and how to modernize development practices across the organization.<br>
-        - Created a Meteor based digital signage system for the 2017 National High School Mock Trial Championship, held partially in our Hartford courtrooms.<br>
-        - Experimenting with different web technologies to better solve future problems with the correct tools.<br>
-        - Backup technical lead for our district’s early adopter NextGen implementation.<br>
-        - Crafting complex, multi table queries to help DQA’s solve docketing errors.<br>
-        - Maintaining and updating internal and public websites as Co-Chair of the Website Committee.</p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-8 title sectionTitle">
-          <p class="bold">LearnToProgram.tv
-          <br>Developer in Residence</p>
-        </div>
-        <div class="col-md-6 col-sm-4 date sectionTitle">
-          <p class="bold">June 2017 - Present</p>
-        </div>
-      </div>
-      <div class="row">
-        <p>- Developing an eLearning course titled "Intro to Server Administration" to be distributed across multiple channels.<br>
-        - Keeping an eye on the tech horizon to help steer future course development efforts towards the latest and greatest web tech.<br>
-        - Instructing  and mentoring students in the Framework Web Development Bootcamp, both in-person and online.<br>
-        - Turning questions on all parts of the LAMP stack into teachable "A-ha!" moments.<br>
-        - Presenting technology demos in different forums:<br>
-        -- "Intro to DevOps" and "Relational Database" presentations for weekly HackNight meetups.</br>
-        -- "Intro to DevOps" workshop about setting up a Docker environment to host custom built containers for Google Developer Groups' DevFest New Haven 2017.</p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-8 title sectionTitle">
-          <p class="bold">United States District Court, District of Connecticut
-          <br>Programmer / Analyst</p>
-        </div>
-        <div class="col-md-6 col-sm-4 date sectionTitle">
-          <p class="bold">May 2015 - March 2017</p>
-        </div>
-      </div>
-      <div class="row">
-        <p>- Created full stack LAMP and Ruby on Rails web applications to automate workflows.<br>
-        - Presented web applications at the 2016 District Operational Practices Forum and a Developer Forum hosted by Collaborative Applications Development in January of 2017.<br>
-        - Helped manage Red Hat servers running IBM Informix and US District Court CM/ECF instances and prepare for our district's early adopter NextGen upgrade.<br>
-        - Crafted complex, multi table queries to create reports for Magistrate and District Judges.<br>
-        - Maintained and updated internal and public websites to support Clerk's Office staff. </p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-8 title sectionTitle">
-          <p class="bold">Independent Software's A100 Program
-          <br>Apprentice / Scrum Master </p>
-        </div>
-        <div class="col-md-6 col-sm-45 date sectionTitle">
-          <p class="bold">Summer 2016</p>
-        </div>
-      </div>
-      <div class="row">
-        <p>- Built a software application in Meteor's full-stack JavaScript platform in an Agile team, completed and deployed a working software application for a local startup venture, Thrivio.<br>
-        - Acted as Scrum Master for a team of five developers for two separate four week sprints.<br>
-        - Supplemented development work (which spanned the software development lifecycle) with targeted training in Agile process, full-stack programming, UI/UX, technical communication, and DevOps.</p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-8 title sectionTitle">
-          <p class="bold">Champlain College Support Services
-          <br>Event Support Lead Technician</p>
-        </div>
-        <div class="col-md-6 col-sm-4 date sectionTitle">
-          <p class="bold">September 2011 - May 2015</p>
-        </div>
-      </div>
-      <div class="row">
-        <p>- Supported all events around campus dealing with audio and visual technology.<br>
-        - Trained new employees on policies and operating procedures.<br>
-        - Acted as a backup resource for newer techs.</p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-8 title sectionTitle">
-          <p class="bold">Middlesex County Camp
-          <br>Assistant Director of Staff and CIT's</p>
-        </div>
-        <div class="col-md-6 col-sm-4 date sectionTitle">
-          <p class="bold">Summer 2010 - Summer 2014</p>
-        </div>
-      </div>
-      <div class="row">
-        <p>- Organized and led a preparation program for counselors in training to become future staff.<br>
-        - Mentored younger staff members and helped uphold camp policy.<br>
-        - Ran activity areas including our archery range, ropes elements, and wilderness survival courses.</p>
-        <hr>
-        <hr>
-      </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="row">
+            <h3>Work Experience:</h3>
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p class="bold">United States District Court, District of Connecticut
+                <br>Programmer</p>
+            </div>
+            <div class="col-md-6 col-sm-4 date sectionTitle">
+              <p class="bold">March 2017 - Present</p>
+            </div>
+          </div>
+          <div class="row">
+            <p>- Developing web based software solutions to common problems in jury processes.
+              <br> - Transitioning in-house applications to container based architectures with Docker for easier deployment.
+              <br> - Communicating with other programmers in the judiciary about emerging technologies, containerizing applications,
+              and how to modernize development practices across the organization.
+              <br> - Created a Meteor based digital signage system for the 2017 National High School Mock Trial Championship,
+              held partially in our Hartford courtrooms.
+              <br> - Experimenting with different web technologies to better solve future problems with the correct tools.
+              <br> - Backup technical lead for our district’s early adopter NextGen implementation.
+              <br> - Crafting complex, multi table queries to help DQA’s solve docketing errors.
+              <br> - Maintaining and updating internal and public websites as Co-Chair of the Website Committee.</p>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p class="bold">LearnToProgram.tv
+                <br>Developer in Residence</p>
+            </div>
+            <div class="col-md-6 col-sm-4 date sectionTitle">
+              <p class="bold">June 2017 - Present</p>
+            </div>
+          </div>
+          <div class="row">
+            <p>- Developing an eLearning course titled "Intro to Server Administration" to be distributed across multiple channels.
+              <br> - Keeping an eye on the tech horizon to help steer future course development efforts towards the latest and
+              greatest web tech.
+              <br> - Instructing and mentoring students in the Framework Web Development Bootcamp, both in-person and online.
+              <br> - Turning questions on all parts of the LAMP stack into teachable "A-ha!" moments.
+              <br> - Presenting technology demos in different forums:
+              <br> -- "Intro to DevOps" and "Relational Database" presentations for weekly HackNight meetups.</br>
+              -- "Intro to DevOps" workshop about setting up a Docker environment to host custom built containers for Google Developer
+              Groups' DevFest New Haven 2017.</p>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p class="bold">United States District Court, District of Connecticut
+                <br>Programmer / Analyst</p>
+            </div>
+            <div class="col-md-6 col-sm-4 date sectionTitle">
+              <p class="bold">May 2015 - March 2017</p>
+            </div>
+          </div>
+          <div class="row">
+            <p>- Created full stack LAMP and Ruby on Rails web applications to automate workflows.
+              <br> - Presented web applications at the 2016 District Operational Practices Forum and a Developer Forum hosted
+              by Collaborative Applications Development in January of 2017.
+              <br> - Helped manage Red Hat servers running IBM Informix and US District Court CM/ECF instances and prepare for
+              our district's early adopter NextGen upgrade.
+              <br> - Crafted complex, multi table queries to create reports for Magistrate and District Judges.
+              <br> - Maintained and updated internal and public websites to support Clerk's Office staff.</p>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p class="bold">Independent Software's A100 Program
+                <br>Apprentice / Scrum Master </p>
+            </div>
+            <div class="col-md-6 col-sm-45 date sectionTitle">
+              <p class="bold">Summer 2016</p>
+            </div>
+          </div>
+          <div class="row">
+            <p>- Built a software application in Meteor's full-stack JavaScript platform in an Agile team, completed and deployed
+              a working software application for a local startup venture, Thrivio.
+              <br> - Acted as Scrum Master for a team of five developers for two separate four week sprints.
+              <br> - Supplemented development work (which spanned the software development lifecycle) with targeted training
+              in Agile process, full-stack programming, UI/UX, technical communication, and DevOps.</p>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p class="bold">Champlain College Support Services
+                <br>Event Support Lead Technician</p>
+            </div>
+            <div class="col-md-6 col-sm-4 date sectionTitle">
+              <p class="bold">September 2011 - May 2015</p>
+            </div>
+          </div>
+          <div class="row">
+            <p>- Supported all events around campus dealing with audio and visual technology.
+              <br> - Trained new employees on policies and operating procedures.
+              <br> - Acted as a backup resource for newer techs.</p>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p class="bold">Middlesex County Camp
+                <br>Assistant Director of Staff and CIT's</p>
+            </div>
+            <div class="col-md-6 col-sm-4 date sectionTitle">
+              <p class="bold">Summer 2010 - Summer 2014</p>
+            </div>
+          </div>
+          <div class="row">
+            <p>- Organized and led a preparation program for counselors in training to become future staff.
+              <br> - Mentored younger staff members and helped uphold camp policy.
+              <br> - Ran activity areas including our archery range, ropes elements, and wilderness survival courses.</p>
+            <hr>
+            <hr>
+          </div>
 
-<!-- PROJECTS -->
-      <div class="row">
-        <h3>Projects:</h3>
-        <p><span class="bold">Digital Signage</span> - I built a digital signage system to let competitors in the 2017 National High School Mock Trials Championship know their various courtroom assignments that auto updated across all loaded instances when new rounds were posted.</p>
-        <p>[<a href="https://github.com/Quinncuatro/signage" target="_blank">GitHub</a>] JavaScript / Meteor / MongoDB</p>
-        <hr>
-        <p><span class="bold">US Webtranet</span> - I am finishing building a containerized intranet framework for federal agencies. I'm presented this and demoed Docker in a nationwide conference call to other US Courts developers in January. </p>
-        <p>[<a href="https://github.com/Quinncuatro/us_webtranet" target="_blank">GitHub</a>] [<a href="https://hub.docker.com/r/quinncuatro/us_webtranet/" target="_blank">Docker Hub</a>] Ruby / Rails / PostgreSQL / Docker</p>
-        <hr>
-        <p><span class="bold">US Web Design Standards Gem</span> - I wanted to use 18F's design standard in the above project, so I created a compatible gem to save the hassle for others. Last count - 189 downloads.</p>
-        <p>[<a href="https://github.com/Quinncuatro/USWebDesignStandardsRoRGem" target="_blank">GitHub</a>] [<a href="https://rubygems.org/gems/us_web_design_standards_ror" target="_blank">RubyGems</a>] Ruby / Bundler</p>
-      </div>
-      <div class="row">
-        <hr>
-        <hr>
-      </div>
+          <!-- PROJECTS -->
+          <div class="row">
+            <h3>Projects:</h3>
+            <p>
+              <span class="bold">Digital Signage</span> - I built a digital signage system to let competitors in the 2017 National High School
+              Mock Trials Championship know their various courtroom assignments that auto updated across all loaded instances
+              when new rounds were posted.</p>
+            <p>[
+              <a href="https://github.com/Quinncuatro/signage" target="_blank">GitHub</a>] JavaScript / Meteor / MongoDB</p>
+            <hr>
+            <p>
+              <span class="bold">US Webtranet</span> - I built a proof of concept for a containerized intranet framework for federal agencies.
+              I presented this and demoed Docker in a nationwide conference call to other judiciary developers in January
+              of 2017.</p>
+            <p>[
+              <a href="https://github.com/Quinncuatro/us_webtranet" target="_blank">GitHub</a>] [
+              <a href="https://hub.docker.com/r/quinncuatro/us_webtranet/" target="_blank">Docker Hub</a>] [
+              <a href="http://webtranet.crashthebot.net/" target="_blank">Live Demo</a>] Ruby / Rails / PostgreSQL / Docker</p>
+            <hr>
+            <p>
+              <span class="bold">Fantasy Draft Challenge</span> - built a fantasy football draft challenge timer to help my league set a draft
+              order based on a timed hot wing challenge. This was something quick that I put together to give the game some
+              structure, but it was a fun build.</p>
+            <p>[
+              <a href="https://github.com/Quinncuatro/FantasyDraftChallenge/tree/master/js" target="_blank">GitHub</a>] [
+              <a href="https://crashthebot.net/draftchallenge/" target="_blank">Live Demo</a>] JavaSCript, jQuery, FlipClock</p>
+          </div>
+          <div class="row">
+            <hr>
+            <hr>
+          </div>
 
-<!-- EDUCATION -->
-      <div class="row">
-        <h3>Education:</h3>
-        <div class="col-xs-12 col-sm-10 col-md-6 title sectionTitle">
-          <p><span class="bold">Champlain College*</span><br>
-          Bachelor of Science in Computer Networking and Information Security<br>
-          Specialization in Cyber Security<br>
-          Champlain College Cycling Club, President<br>
-          Champlain College Rock Climbing Club, Member<p>
-        </div>
-        <div class="col-xs-12 col-sm-2 col-md-6 date sectionTitle date">
-          <p>May 2015</p>
-        </div>
-      </div>
-      <div class="row">
-        <hr>
-        <hr>
-      </div>
+          <!-- EDUCATION -->
+          <div class="row">
+            <h3>Education:</h3>
+            <div class="col-xs-12 col-sm-10 col-md-6 title sectionTitle">
+              <p>
+                <span class="bold">Champlain College*</span>
+                <br> Bachelor of Science in Computer Networking and Information Security
+                <br> Specialization in Cyber Security
+                <br> Champlain College Cycling Club, President
+                <br> Champlain College Rock Climbing Club, Member
+                <p>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-6 date sectionTitle date">
+              <p>May 2015</p>
+            </div>
+          </div>
+          <div class="row">
+            <hr>
+            <hr>
+          </div>
 
-<!-- NATIONAL PRESENTATIONS -->
-      <div class="row">
-        <h3>National Presentations:</h3>
-        <div class="col-md-6 col-sm-8 title sectionTitle">
-          <p><strong>Us Webtranet: Containerized Intranet Framework</strong>
-          <br>Collaborative Applications Development (CAD) Developer's Forum, WebEx</p>
-        </div>
-        <div class="col-md-6 col-sm-45 date sectionTitle">
-          <p class="bold">January 2017</p>
+          <!-- NATIONAL PRESENTATIONS -->
+          <div class="row">
+            <h3>National Presentations:</h3>
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p>
+                <strong>Intro to DevOps Workshop</strong>
+                <br>Google Developers Group DevFest New Haven 2017</p>
+            </div>
+            <div class="col-md-6 col-sm-45 date sectionTitle">
+              <p class="bold">November 2017</p>
+            </div>
+          </div>
+          <div class="row">
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p>
+                <strong>Us Webtranet: Containerized Intranet Framework</strong>
+                <br>U.S. District Courts, Collaborative Applications Development (CAD) Developer's Forum - WebEx</p>
+            </div>
+            <div class="col-md-6 col-sm-4 date sectionTitle">
+              <p class="bold">January 2017</p>
+            </div>
+          </div>
+          <div class="row">
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-8 title sectionTitle">
+              <p>
+                <strong>Human Resources Organizer (HRO) - Access Management</strong>
+                <br>U.S. District Courts, District Operational Practices Forum - Orlando, FL</p>
+            </div>
+            <div class="col-md-6 col-sm-4 date sectionTitle">
+              <p class="bold">September 2016</p>
+            </div>
+          </div>
+          <div class="row">
+            <hr>
+            <hr>
+          </div>
+
+          <!-- FOOTER -->
+          <div class="row">
+            <div class="col-md-9 col-sm-8 title sectionTitle">
+              <p>* Champlain College is Designated a National Center of Academic Excellence in Information Assurance Education
+                by the National Security Agency and the Department of Homeland Security</p>
+            </div>
+            <div class="col-md-3 col-sm-4 date sectionTitle">
+              <p>&copy; 2016 Henry Quinn</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-8 title sectionTitle">
-          <p><strong>Human Resources Organizer (HRO) - Access Management</strong>
-          <br>District Operational Practices Forum, Orlando, FL</p>
-        </div>
-        <div class="col-md-6 col-sm-4 date sectionTitle">
-          <p class="bold">September 2016</p>
-        </div>
-      </div>
-      <div class="row">
-        <hr>
-        <hr>
-      </div>
-      
-<!-- FOOTER -->
-      <div class="row">
-        <div class="col-md-9 col-sm-8 title sectionTitle">
-          <p>* Champlain College is Designated a National Center of Academic Excellence in Information Assurance Education by the National Security Agency and the Department of Homeland Security</p>
-        </div>
-        <div class="col-md-3 col-sm-4 date sectionTitle">
-          <p>&copy; 2016 Henry Quinn</p>
-        </div>
-      </div>
-    </div></div>
-  </div>
+    </div>
 </body>
+
 </html>
