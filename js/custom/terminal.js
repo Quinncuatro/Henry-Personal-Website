@@ -1,63 +1,4 @@
-$(function() {
-  doTheNeedful();
-
-  var data = [
-  { 
-    action: 'type',
-    strings: ["whoami^400"],
-    output: $('.henry-resume').html(),
-    postDelay: 1000
-  }
-];
-  
-  runScripts(data, 0);
-});
-
-function runScripts(data, pos) {
-    var prompt = $('.prompt'),
-        script = data[pos];
-    if(script.clear === true) {
-      $('.history').html(''); 
-    }
-    switch(script.action) {
-        case 'type':
-          // cleanup for next execution
-          prompt.removeData();
-          $('.typed-cursor').text('');
-          prompt.typed({
-            strings: script.strings,
-            typeSpeed: 30,
-            callback: function() {
-              var history = $('.history').html();
-              history = history ? [history] : [];
-              history.push('[hquinn@HenryNeeds ~]$ ' + prompt.text());
-              if(script.output) {
-                $(".terminal-data").removeClass('hide');
-
-                // history.push(script.output);
-                // prompt.html('');
-                // $('.history').html(history.join('<br>'));
-
-
-              }
-              // scroll to bottom of screen
-              $('section.terminal').scrollTop($('section.terminal').height());
-              // Run next script
-              pos++;
-              if(pos < data.length) {
-                setTimeout(function() {
-                  runScripts(data, pos);
-                }, script.postDelay || 1000);
-              }
-            }
-          });
-          break;
-        case 'view':
-          break;
-    }
-}
-
-function doTheNeedful() {
+$(document).ready(function() {
   // Get current date for "login" info
   var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -110,4 +51,14 @@ function doTheNeedful() {
   addHiddenLinks();
   addHiddenHTML();
   addCopyrightYear();
-}
+
+  // Type out strings on screen
+  $(".prompt").typed({
+    strings: [" whoami"],
+    typeSpeed: 60,
+    loop: false,
+  }).delay(1100).queue(function(next) {
+    $(".terminal-data").removeClass('hide');
+  });
+  
+})
