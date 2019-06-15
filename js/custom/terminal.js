@@ -1,5 +1,5 @@
 $(function() {
-  welcomeDate();
+  doTheNeedful();
 
   var data = [
   { 
@@ -32,9 +32,13 @@ function runScripts(data, pos) {
               history = history ? [history] : [];
               history.push('[hquinn@HenryNeeds ~]$ ' + prompt.text());
               if(script.output) {
-                history.push(script.output);
-                prompt.html('');
-                $('.history').html(history.join('<br>'));
+                $(".terminal-data").removeClass('hide');
+
+                // history.push(script.output);
+                // prompt.html('');
+                // $('.history').html(history.join('<br>'));
+
+
               }
               // scroll to bottom of screen
               $('section.terminal').scrollTop($('section.terminal').height());
@@ -53,7 +57,7 @@ function runScripts(data, pos) {
     }
 }
 
-function welcomeDate() {
+function doTheNeedful() {
   // Get current date for "login" info
   var days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
