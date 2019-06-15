@@ -57,7 +57,7 @@ $(document).ready(function() {
     strings: [" whoami"],
     typeSpeed: 60,
     loop: false,
-  }).delay(1100).queue(function(next) {
+  }).delay(1000).queue(function(next) {
     $(".terminal-data").removeClass('hide');
   });
   
