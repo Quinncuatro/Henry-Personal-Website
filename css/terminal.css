@@ -29,15 +29,15 @@ body {
 }
 
 .terminal-window header .button.green {
-  background: #3BB662;
+  background: #33D234;
 }
 
 .terminal-window header .button.yellow {
-  background: #E5C30F;
+  background: #F6AE24;
 }
 
 .terminal-window header .button.red {
-  background: #E75448;
+  background: #DD373B;
 }
 
 .terminal-window section.terminal {
@@ -118,6 +118,7 @@ a:hover {
 @media only screen and (min-width: 600px) {
   .terminal-window {
     width: 95%;
+    margin-top: 20px;
   }
 } 
 
@@ -125,5 +126,6 @@ a:hover {
 @media only screen and (max-width: 600px) {
   .terminal-window {
     width: 95%;
+    margin-top: 20px;
   }
 }
