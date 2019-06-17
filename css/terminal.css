@@ -4,12 +4,12 @@ body {
 
 .terminal-window {
   text-align: left;
-  width: 80%;
-  height: 800px;
+  width: 95vw;
+  height: 90vh;
+  margin-top: 5vh;
   border-radius: 10px;
   margin: auto;
   position: relative;
-  margin-top: 50px;
   box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
 }
 
@@ -29,15 +29,15 @@ body {
 }
 
 .terminal-window header .button.green {
-  background: #3BB662;
+  background: #33D234;
 }
 
 .terminal-window header .button.yellow {
-  background: #E5C30F;
+  background: #F6AE24;
 }
 
 .terminal-window header .button.red {
-  background: #E75448;
+  background: #DD373B;
 }
 
 .terminal-window section.terminal {
@@ -81,9 +81,6 @@ div.hide {
   display: none;
 }
 
-.terminal-window .gray { color: gray; }
-.terminal-window .green { color: green;}
-
 h1, h3 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -103,27 +100,32 @@ a:hover {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .terminal-window {
-    width: 80%;
   }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .terminal-window {
-    width: 80%;
+    height: 95vh;
+    margin-top: 2.5vh;
+    width: 95vw;
   }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .terminal-window {
-    width: 95%;
+    height: 90vh;
+    margin-top: 5vh;
+    width: 95vw;
   }
 } 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .terminal-window {
-    width: 95%;
+    height: 95vh;
+    margin-top: 2vh;
+    width: 95vw;
   }
 }

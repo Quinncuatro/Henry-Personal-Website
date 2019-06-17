@@ -7,15 +7,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-control" content="public">
   <title>Henry Quinn</title>
-  <link rel="stylesheet" href="./css/terminal.css">
+  <link rel="preload" href="./css/terminal.css" as="style" onload="this.rel='stylesheet'" media="all">
 </head>
 <body>
   <div class="terminal-window">
     <header>
-      <div class="button green"></div>
-      <div class="button yellow"></div>
       <div class="button red"></div>
+      <div class="button yellow"></div>
+      <div class="button green"></div>
     </header>
     <section class="terminal">
       <span id="currentLogin"></span></br>
@@ -31,11 +32,18 @@
         <h1>Henry Quinn IV</h1>
         <h3>DevOps Engineer</h3>
         <a class="hiddenEmailLink" href="mailto:"><span class="hiddenEmail"></span></a> /
+<<<<<<< HEAD
         <a href="http://blog.henryneeds.coffee" target="_blank" rel="noopener">Blog</a>
         /
         <a href="https://github.com/quinncuatro" target="_blank" rel="noopener">GitHub</a> /
         <a href="https://www.linkedin.com/in/henryquinniv" target="_blank" rel="noopener">LinkedIn</a><br>
         ---------------------------------------------------------------------<br>
+=======
+        <a href="http://blog.henryneeds.coffee">Blog</a> /
+        <a href="https://github.com/quinncuatro" target="_blank" rel="noopener">GitHub</a> /
+        <a href="https://www.linkedin.com/in/henryquinniv" target="_blank" rel="noopener">LinkedIn</a><br>
+        -------------------------------------------------<br>
+>>>>>>> 47f9d1df392cb37465fb13429f075facecfe3bac
 
         <!-- WORK EXPERIENCE -->
         <div class="row">
@@ -214,7 +222,7 @@
     </section>
   </div>
 </body>
-<script src="./js/jquery.min.js"></script>
-<script src="./js/typed.min.js"></script>
-<script src="./js/terminal.js"></script>
+<script src="./js/jquery.min.js" defer></script>
+<script src="./js/typed.min.js"defer></script>
+<script src="./js/terminal.js" defer></script>
 </html>
