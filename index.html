@@ -7,8 +7,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-control" content="public">
   <title>Henry Quinn</title>
-  <link rel="stylesheet" href="./css/terminal.css">
+  <link rel="preload" href="./css/terminal.css" as="style" onload="this.rel='stylesheet'" media="all">
 </head>
 <body>
   <div class="terminal-window">
@@ -213,7 +214,7 @@
     </section>
   </div>
 </body>
-<script src="./js/jquery.min.js"></script>
-<script src="./js/typed.min.js"></script>
-<script src="./js/terminal.js"></script>
+<script src="./js/jquery.min.js" defer></script>
+<script src="./js/typed.min.js"defer></script>
+<script src="./js/terminal.js" defer></script>
 </html>
