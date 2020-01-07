@@ -1,9 +1,21 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Henry Needs Coffee`,
+    description: `Whatever`,
+    author: `Henry Quinn`,
+  },
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Henry Needs Coffee`,
+        short_name: `HenryNeedsCoffee`,
+        start_url: `/`,
+        background_color: `#355366`,
+        theme_color: `#355366`,
+        display: `standalone`,
+        icon: `src/images/icon.png`, 
+      },
+    },
+  ],
 }

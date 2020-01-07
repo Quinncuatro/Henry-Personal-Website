@@ -42,8 +42,8 @@ a:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .terminal-window {
-  }
+  /* .terminal-window {
+  } */
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
