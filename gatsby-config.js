@@ -17,5 +17,13 @@ module.exports = {
         icon: `src/images/icon.png`, 
       },
     },
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/content`,
+      },
+    },
   ],
 }
