@@ -7,8 +7,8 @@ body {
   width: 95vw;
   height: 90vh;
   margin-top: 5vh;
+  margin-left: 2vw;
   border-radius: 10px;
-  margin: auto;
   position: relative;
   box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
 }

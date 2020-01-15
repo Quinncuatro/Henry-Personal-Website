@@ -8,7 +8,7 @@ header {
 header .greenButton {
   width: 12px;
   height: 12px;
-  margin: 10px 4px 0 0;
+  margin: 10px 8px 0 0;
   display: inline-block;
   border-radius: 8px;
   background: #33D234;
@@ -17,7 +17,7 @@ header .greenButton {
 header .yellowButton {
   width: 12px;
   height: 12px;
-  margin: 10px 4px 0 0;
+  margin: 10px 8px 0 0;
   display: inline-block;
   border-radius: 8px;
   background: #F6AE24;
@@ -26,7 +26,7 @@ header .yellowButton {
 header .redButton {
   width: 12px;
   height: 12px;
-  margin: 10px 4px 0 0;
+  margin: 10px 8px 0 0;
   display: inline-block;
   border-radius: 8px;
   background: #DD373B;

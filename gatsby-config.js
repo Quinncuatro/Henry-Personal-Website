@@ -17,6 +17,7 @@ module.exports = {
         icon: `src/images/icon.png`, 
       },
     },
+    `gatsby-plugin-offline`,
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -25,5 +26,6 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 }
