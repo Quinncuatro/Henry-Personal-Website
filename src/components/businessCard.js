@@ -3,7 +3,7 @@ import React from "react"
 let myEmail = "HenryQuinnIV" + String.fromCharCode(64) + "gmail.com";
 
 export default () => ( <div>
-  <div class="terminal-data henry-resume hide">
+  <div>
     <h1>Henry Quinn IV</h1>
     <h3>DevOps Engineer</h3>
     <a href={ "mailto:"+myEmail }><span>{ myEmail }</span></a> /
