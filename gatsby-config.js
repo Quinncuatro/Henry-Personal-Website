@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Henry Needs Coffee`,
-    description: `Whatever`,
     author: `Henry Quinn`,
+    description: `The personal resume site of Henry Edward Quinn IV`,
+    keywords: `Henry, Quinn, DevOps, Engineer, Resume, Docker, Bash, JavaScript, JS, Automation`,
+    title: `Henry Needs Coffee`,
   },
   plugins: [
     {

@@ -1,7 +1,3 @@
-div.hide {
-  display: none;
-}
-
 h1, h3 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -16,10 +12,6 @@ a {
 a:hover {
   color:#005096;
   text-decoration: none;
-}
-
-.terminalHider {
-  display: none;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

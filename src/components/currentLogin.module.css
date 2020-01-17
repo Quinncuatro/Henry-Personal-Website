@@ -3,6 +3,16 @@
 	float: left;
 }
 
+/* Animation */
+@-webkit-keyframes typing{
+	from { width: 100%;}
+  to { width: 0;}
+}
+@keyframes typing{
+	from{ width: 100%;}
+	to{ width: 0;}
+}
+
 .typed span{
 	position: absolute;
 	top: 0;
@@ -14,12 +24,6 @@
 										 cursor 1s infinite;
 	animation: typing 0.6s steps(6) forwards,
 						 cursor 1s infinite;
-}
-
-/* Animation */
-@-webkit-keyframes typing{
-	from { width: 100%;}
-	to { width: 0;}
 }
 
 .hiddenPart {
