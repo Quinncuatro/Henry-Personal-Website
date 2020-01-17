@@ -63,7 +63,7 @@ export default () => (
     `}
     render={data => (
       <div>
-        <span >{ currentLoginPrompt }<br />
+        <span >{ currentLoginPrompt }<br />{console.log(data)}
         Welcome to HenryNeeds.Coffee!</span>
         <br /><br />
         [hquinn@HenryNeeds ~]$ <span className={currentLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
