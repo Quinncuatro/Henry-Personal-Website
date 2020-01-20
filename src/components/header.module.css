@@ -1,0 +1,33 @@
+header {
+  background: #E0E8F0;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 10px;
+}
+
+header .greenButton {
+  width: 12px;
+  height: 12px;
+  margin: 10px 8px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+  background: #33D234;
+}
+
+header .yellowButton {
+  width: 12px;
+  height: 12px;
+  margin: 10px 8px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+  background: #F6AE24;
+}
+
+header .redButton {
+  width: 12px;
+  height: 12px;
+  margin: 10px 8px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+  background: #DD373B;
+}

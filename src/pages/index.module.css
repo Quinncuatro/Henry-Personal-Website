@@ -1,0 +1,51 @@
+h1, h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  cursor: pointer;
+  color: #87B4C5;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#005096;
+  text-decoration: none;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .terminal-window {
+  } */
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .terminal-window {
+    height: 95vh;
+    margin-top: 2.5vh;
+    width: 95vw;
+    margin-left: 2vw;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .terminal-window {
+    height: 90vh;
+    margin-top: 5vh;
+    width: 95vw;
+    margin-left: 2vw;
+  }
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .terminal-window {
+    height: 95vh;
+    margin-top: 2vh;
+    width: 95vw;
+    margin-left: 2vw;
+  }
+}

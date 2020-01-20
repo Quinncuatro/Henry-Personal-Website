@@ -1,0 +1,29 @@
+body {
+  background: #355366;
+}
+
+.terminalWindow {
+  text-align: left;
+  width: 95vw;
+  height: 90vh;
+  margin-top: 5vh;
+  margin-left: 2vw;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
+}
+
+.terminal {
+  color: white;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  font-size: 11pt;
+  background: #222222;
+  border-radius: 0 0 8px 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  bottom: 0;
+  overflow: auto;
+}
