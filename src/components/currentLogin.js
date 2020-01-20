@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
 import currentLoginStyles from "./currentLogin.module.css"
 import BusinessCard from "./businessCard"
@@ -28,6 +28,60 @@ let seconds = zerosAreHard(now.getSeconds());
 let year = now.getFullYear();
 
 let currentLoginPrompt = "Current login: " + day + " " + month + " " + date + " " + hours +":" + minutes + ":" + seconds + " " + year;
+
+const CurrentLogin = data => {
+  const [hidden, setHidden] = useState(true);
+  useEffect(() => {
+    setTimeout(() => setHidden(false), 900)
+  }, [])
+
+  return (
+    <div>
+      <span >{ currentLoginPrompt }<br />
+      Welcome to HenryNeeds.Coffee!</span>
+      <br /><br />
+      [hquinn@HenryNeeds ~]$ <span className={currentLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
+      <div className={hidden ? currentLoginStyles.hiddenPart : ""}>
+        <BusinessCard />
+        <h3>Work Experience:</h3>
+        {data.allContentYaml.edges[0].node.jobs.map((job) => (
+          <Job
+          employer={job.employer}
+          position={job.position}
+          time={job.time}
+          details={job.details}
+        />
+        ))}
+        <hr />
+        <h3>Projects:</h3>
+        {data.allContentYaml.edges[0].node.projects.map((project) => (
+          <Project
+            name={project.name}
+            year={project.year}
+            description={project.description}
+            technologies={project.technologies}
+            github={project.github}
+            dockerhub={project.dockerhub}
+          />
+        ))}
+        <hr />
+        <h3>Education:</h3>
+        <Education />
+        <hr />
+        <h3>National Presentations:</h3>
+        {data.allContentYaml.edges[0].node.presentations.map((presentation) => (
+          <Presentation
+            talk={presentation.talk}
+            conference={presentation.conference}
+            location={presentation.location}
+            date={presentation.date}
+          />
+        ))}
+        <Footer />
+      </div>
+    </div>
+  )
+}
   
 export default () => (
   <StaticQuery
@@ -61,51 +115,6 @@ export default () => (
         }
       }
     `}
-    render={data => (
-      <div>
-        <span >{ currentLoginPrompt }<br />{console.log(data)}
-        Welcome to HenryNeeds.Coffee!</span>
-        <br /><br />
-        [hquinn@HenryNeeds ~]$ <span className={currentLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
-        <div className={currentLoginStyles.hiddenPart}>
-          <BusinessCard />
-          <h3>Work Experience:</h3>
-          {data.allContentYaml.edges[0].node.jobs.map((job) => (
-            <Job
-            employer={job.employer}
-            position={job.position}
-            time={job.time}
-            details={job.details}
-          />
-          ))}
-          <hr />
-          <h3>Projects:</h3>
-          {data.allContentYaml.edges[0].node.projects.map((project) => (
-            <Project
-              name={project.name}
-              year={project.year}
-              description={project.description}
-              technologies={project.technologies}
-              github={project.github}
-              dockerhub={project.dockerhub}
-            />
-          ))}
-          <hr />
-          <h3>Education:</h3>
-          <Education />
-          <hr />
-          <h3>National Presentations:</h3>
-          {data.allContentYaml.edges[0].node.presentations.map((presentation) => (
-            <Presentation
-              talk={presentation.talk}
-              conference={presentation.conference}
-              location={presentation.location}
-              date={presentation.date}
-            />
-          ))}
-          <Footer />
-        </div>
-      </div>
-    )}
+    render={CurrentLogin}
   />
 )

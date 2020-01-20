@@ -1,5 +1,5 @@
 .hiddenPart {
-  /* display: none; */
+	display: none;
 }
 
 .typed {
@@ -24,8 +24,6 @@
 	background: #222222;
 	width: 100%;
 	border-left: .1em solid transparent;
-	-webkit-animation: typing 0.6s steps(6) forwards,
-										 cursor 1s infinite;
-	animation: typing 0.6s steps(6) forwards,
-						 cursor 1s infinite;
+	-webkit-animation: typing 0.6s steps(6) forwards, cursor 1s infinite;
+	animation: typing 0.6s steps(6) forwards, cursor 1s infinite;
 }
