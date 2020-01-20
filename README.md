@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b8f1b279-8188-4910-bbcb-6a841735f6d8/deploy-status)](https://app.netlify.com/sites/fervent-bhabha-844826/deploys)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
