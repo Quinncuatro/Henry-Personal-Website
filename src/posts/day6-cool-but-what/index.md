@@ -122,7 +122,7 @@ Hopefully, this makes the benefits of containers seem a little more real. If any
 Also, as I work on my Compose -> Kubernetes project/article, I'm also waiting on some fun toys to come in from Amazon. This will for sure be its own article, but I'm hopping on the Raspberry Pi Kubernetes cluster bandwagon.
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/cl0eiam0zxfho5c6pa9d.jpg)
-> Photo Credit: https://www.c4labs.com/product/8-slot-stackable-cluster-case-raspberry-pi-3b-and-other-single-board-computers-color-options/
+> Photo Credit: [C4Labs](https://www.c4labs.com/product/8-slot-stackable-cluster-case-raspberry-pi-3b-and-other-single-board-computers-color-options/)
 
 Until then, stay frosty.
 
