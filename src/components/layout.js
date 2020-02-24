@@ -10,7 +10,7 @@ export default ({ children }) => (
       <meta name="keywords" content="Henry, Quinn, DevOps, Engineer, Resume, Docker, Bash, GoLang, Go, JavaScript, JS, Automation" />
       <meta charset="UTF-8" />
       <html lang="en" />
-      <title>Henry Needs Coffee</title>
+      <title>Henry Quinn - Automation Engineer</title>
     </Helmet>
     <Header />
     <section className={layoutStyles.terminal}>
