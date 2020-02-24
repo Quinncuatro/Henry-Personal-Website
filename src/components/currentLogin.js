@@ -44,7 +44,7 @@ const CurrentLogin = data => {
       <div className={hidden ? currentLoginStyles.hiddenPart : ""}>
         <BusinessCard />
         <h3>Work Experience:</h3>
-        {data.allContentYaml.edges[0].node.jobs.map((job) => (
+        {data.allResumeYaml.edges[0].node.jobs.map((job) => (
           <Job
           employer={job.employer}
           position={job.position}
@@ -54,7 +54,7 @@ const CurrentLogin = data => {
         ))}
         <hr />
         <h3>Projects:</h3>
-        {data.allContentYaml.edges[0].node.projects.map((project) => (
+        {data.allResumeYaml.edges[0].node.projects.map((project) => (
           <Project
             name={project.name}
             year={project.year}
@@ -69,7 +69,7 @@ const CurrentLogin = data => {
         <Education />
         <hr />
         <h3>National Presentations:</h3>
-        {data.allContentYaml.edges[0].node.presentations.map((presentation) => (
+        {data.allResumeYaml.edges[0].node.presentations.map((presentation) => (
           <Presentation
             talk={presentation.talk}
             conference={presentation.conference}
@@ -87,7 +87,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query currentLoginQuery {
-        allContentYaml {
+        allResumeYaml {
           edges {
             node {
               jobs {

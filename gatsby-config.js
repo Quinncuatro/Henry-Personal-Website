@@ -4,12 +4,39 @@ module.exports = {
     description: `The personal resume site of Henry Edward Quinn IV`,
     keywords: `Henry, Quinn, DevOps, Engineer, Resume, Docker, Bash, JavaScript, JS, Automation`,
     title: `Henry Needs Coffee`,
+    siteUrl: `https://henryneeds.coffee`,
+    social: {
+      github: "quinncuatro",
+      linkedin: "henryquinniv",
+      twitter: "quinncuatro",
+    }
   },
   plugins: [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-autolink-headers`,
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+        ],
+      },
+    },
+    `gatsby-remark-copy-linked-files`,
+    `gatsby-remark-smartypants`,
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Henry Needs Coffee`,
+        name: `Henry Quinn - Automation Engineer`,
         short_name: `HenryNeedsCoffee`,
         start_url: `/`,
         background_color: `#355366`,
@@ -18,15 +45,24 @@ module.exports = {
         icon: `src/images/icon.png`, 
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-transformer-yaml`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        name: `content`,
-        path: `${__dirname}/content`,
+        host: "https://henryneeds.coffee",
+        sitemap: "https://henryneeds.coffee/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
-    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-158941203-1",
+        head: false,
+        respectDNT: true,
+      },
+    },
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-offline`,
+    `gatsby-transformer-yaml`,
   ],
 }
