@@ -4,13 +4,16 @@ body {
 
 .terminalWindow {
   text-align: left;
-  width: 95vw;
+  /* width: 95vw; */
   height: 90vh;
   margin-top: 5vh;
-  margin-left: 2vw;
+  /* margin-left: 2vw; */
   border-radius: 10px;
   position: relative;
   box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .terminal {
@@ -26,4 +29,14 @@ body {
   top: 30px;
   bottom: 0;
   overflow: auto;
+}
+
+blockquote {
+  border-left: 5px solid #355366;
+  margin: 1em 10px;
+  padding: 0.5em 10px;
+}
+
+blockquote p {
+  display: inline;
 }
