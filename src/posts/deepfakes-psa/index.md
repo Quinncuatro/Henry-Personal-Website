@@ -26,7 +26,7 @@ You can make it sound like people said something they didn't really say just by 
 
 Oh yeah?
 
-[![Adobe Audio Manipulator Sneak Peak](http://img.youtube.com/vi/I3l4XLZ59iw/0.jpg)](http://www.youtube.com/watch?v=I3l4XLZ59iw "Adobe Audio Manipulator Sneak Peak")
+[![Adobe Audio Manipulator Sneak Peak](https://img.youtube.com/vi/I3l4XLZ59iw/0.jpg)](https://www.youtube.com/watch?v=I3l4XLZ59iw "Adobe Audio Manipulator Sneak Peak")
 
 > "Oh, shit."
 
@@ -34,7 +34,7 @@ Yeah. In fact, that video was from all the way back in November of 2016. Technol
 
 Jordan Peele's production company actually used Adobe After Effects and a tool called FakeApp to make a video of Barack Obama moving his mouth to go along with and copying mannerisms from Peele's impersonation of him, reminding us to "stay woke, bitches."
 
-[![You Won’t Believe What Obama Says In This Video!](http://img.youtube.com/vi/cQ54GDm1eL0/0.jpg)](http://www.youtube.com/watch?v=cQ54GDm1eL0 "You Won’t Believe What Obama Says In This Video!")
+[![You Won’t Believe What Obama Says In This Video!](https://img.youtube.com/vi/cQ54GDm1eL0/0.jpg)](https://www.youtube.com/watch?v=cQ54GDm1eL0 "You Won’t Believe What Obama Says In This Video!")
 
 > "Are you serious?"
 
@@ -48,7 +48,7 @@ People my age have been told our entire lives to be careful about what we put on
 
 And forget about what other people decide to post. Depending on the platform, it can be near impossible to take down. I've definitely seen pictures online of friends, family, and exes that could put those people in compromised positions somewhere down the line.
 
-![](http://crashthebot.net/blog/wp-content/uploads/2018/06/pencil-300x211-300x211.jpg)
+![](https://crashthebot.net/blog/wp-content/uploads/2018/06/pencil-300x211-300x211.jpg)
 
 So what happens when these tools get so simple that everyone can use them? Some really sketchy stuff, that's what.
 
@@ -68,7 +68,7 @@ They'll do this targeting with data. It's happened before. After all of the inve
 
 Currently, not really, and that's what really scares me. There are a lot of charts out there (see below) that help you kind of figure out the partisan bias and information quality of different news sources. So if you see something from Patribotics or Infowars, you know that it'll inherently have a huge bias to it, and it might not be factually accurate. Knowing where your source lies on a chart like this can help you kind of gauge how true something might be.
 
-![](http://crashthebot.net/blog/wp-content/uploads/2018/06/Media-Bias-Chart_Version-3.1_Watermark-min.jpg)
+![](https://crashthebot.net/blog/wp-content/uploads/2018/06/Media-Bias-Chart_Version-3.1_Watermark-min.jpg)
 
 But in a world where any idiot can set up a WordPress blog (whaddup?) and run a "news" site, it can be difficult to know exactly who we can trust to deliver us factual information. There are people out there working on a solution, however.
 
