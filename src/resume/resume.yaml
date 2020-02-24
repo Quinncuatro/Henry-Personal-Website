@@ -3,9 +3,13 @@ jobs:
     position: "DevOps Engineer"
     time: "May 2019 - Present"
     details: |
-      - Automating various deployment processes through the use of Docker containers and Bash scripts. This includes scripting a lot of git commands to prepare our daily build packages for production.
-      - Building custom tools with Bash and GoLang to automate daily build audit processes, saving approximately one man-hour per day. This mostly includes creating custom custom Go scripts that automatically look through various types of files for commonly made errors and reports the findings to our change control team.
-      - Completing code, shell script, and SQL migrations to our test and QA environments as needed throughout the day.
+      - Developing custom automation solutions through the use of Docker containers, Bash scripts, and NodeJS apps, saving approximately three man-hours per day.
+      - Understanding and automating processes to run Git commands to prepare our daily build packages, automating PHI scrubs in our lower environments, and automatically parsing and reporting commonly made errors in various types of files to our change control team.
+      - Experimenting with AWS Lambda in order to build a unified toolkit for our developers to both use and contribute to.
+      - Participating in discussions with senior engineers to both plan a digital transformation (a new version of our app and a cloud migration) and about company wide development standards in order to promote automation.
+      - Packaging and verifying all shell scripts, cron updates, and SQL scripts for daily production migrations.
+      - Watching for patterns in all of our migrations and environments in order to bring problems to light for my team to solve.
+      - Completing code, shell script, and SQL migrations to our lower environments as needed throughout the day.
   - employer: "NewHaven.io (Non-Profit)"
     position: "Member Board of Directors"
     time: "November 2018 - Present"
@@ -13,6 +17,7 @@ jobs:
       - Organizing events around the city for our members to network and learn new technology skills.
       - Partnering with other technology and non-profit focused organizations to help connect and align groups and individuals.
       - Creating a stronger tech and startup minded community by fostering a culture of creation and experimentation.
+      - Managing a team of developers to create and launch a new website for the group.
   - employer: "Administrative Office (AO) of the United States Courts"
     position: "Software Developer - Temporary Duty Assignment"
     time: "August 2019 - April 2019"
@@ -41,7 +46,13 @@ jobs:
       - Managed Red Hat servers running IBM Informix and US District Court CM/ECF (our docketing application) instances and prepared for our district's early adopter NextGen CM/ECF upgrade.
       - Crafted complex, multi table queries to generate reports that allowed Magistrate and District Judges on the CM/ECF Committee to decide which nature of suit case types needed to be optimized to abide by the Speedy Trial Clause.
 projects:
-  - name: "DEVC Webpack"
+  - name: "Blue Albums - Work In Progress"
+    year: "2019"
+    description: "Building a website to keep track of what my friends and I refer to as “blue albums,” or albums that anyone can listen to in their entirely. It was initially built with Vue to learn the framework but I’m porting it to GatsbyJS in order to learn for a different side project."
+    technologies: "Vue.js, JavaScript, NodeJS. Transitioning to GatsbyJS."
+    github: "https://github.com/Quinncuatro/blue-albums"
+    dockerhub: "null"
+  - name: "DEVC Webpack Playground"
     year: "2018"
     description: "Experimenting folding Vue.js, Node, and WebPack into a containerized Lucee (open source ColdFusion) and MySQL environment that’s used in the judiciary. The end goal is to spur a modernization effort of our tech stacks across the country."
     technologies: "Vue.js, ColdFusion, Shell, JavaScript, Docker, Node, Webpack, MySQL."
@@ -67,30 +78,42 @@ projects:
     dockerhub: "null"
 presentations:
   - talk: "Leading a Digital Transformation at the Speed of Government"
-    conference: "Google Developers Group DevFest"
-    location: "New Haven, CT"
-    date: "September, 2019"
+    conference: "DevOpsDays Seattle 2020"
+    location: "Seattle, WA"
+    date: "September 2020"
+    video: "null"
   - talk: "Leading a Digital Transformation at the Speed of Government"
-    conference: "DevOpsDays Hartford"
+    conference: "DevOpsDays Hartford 2019"
     location: "Hartford, CT"
     date: "October 2019"
+    video: "https://youtu.be/FbEm8wF9CKM?t=308"
+  - talk: "Leading a Digital Transformation at the Speed of Government"
+    conference: "Google Developers Group DevFest 2019"
+    location: "New Haven, CT"
+    date: "September, 2019"
+    video: "null"
   - talk: "Judicial Dashboard - Dashboard View of Court Operations"
     conference: "U.S. District Courts, IT Conference West"
     location: "Phoenix, AZ"
     date: "August 2018"
+    video: "null"
   - talk: "Judicial Dashboard - Dashboard View of Court Operations"
     conference: "U.S. District Courts, District Operational Practices Forum"
     location: "Minneapolis, MN"
     date: "May 2018"
+    video: "null"
   - talk: "Intro to DevOps Workshop"
-    conference: "Google Developers Group DevFest"
+    conference: "Google Developers Group DevFest 2017"
     location: "New Haven, CT"
     date: "November 2017"
+    video: "null"
   - talk: "US Webtranet"
     conference: "U.S. District Courts, Collaborative Applications Development (CAD) Developer’s Forum"
     location: "Webex"
     date: "January 2017"
+    video: "null"
   - talk: "Human Resources Organizer (HRO)"
     conference: "U.S. District Courts, District Operational Practices Forum"
     location: "Orlando, FL"
     date: "September 2016"
+    video: "null"
