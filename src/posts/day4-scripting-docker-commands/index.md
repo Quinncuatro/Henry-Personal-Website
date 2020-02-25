@@ -265,6 +265,6 @@ I'll try to write some more while I'm on vacation, though you might not hear fro
 Stay frosty.
 
 - [https://henryneeds.coffee](https://henryneeds.coffee)
-- [Blog](https://blog.henryneeds.coffee)
+- [Blog](https://henryneeds.coffee/blog)
 - [LinkedIn](https://linkedin.com/in/henryquinniv)
 - [Twitter](https://twitter.com/quinncuatro)

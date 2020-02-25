@@ -201,6 +201,6 @@ Also, the parts for my Raspberry Pi K8s bramble are all slowly coming in the mai
 Until then, stay frosty.
 
 - [https://henryneeds.coffee](https://henryneeds.coffee)
-- [Blog](https://blog.henryneeds.coffee)
+- [Blog](https://henryneeds.coffee/blog)
 - [LinkedIn](https://linkedin.com/in/henryquinniv)
 - [Twitter](https://twitter.com/quinncuatro)

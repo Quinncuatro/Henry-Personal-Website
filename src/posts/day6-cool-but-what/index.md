@@ -127,6 +127,6 @@ Also, as I work on my Compose -> Kubernetes project/article, I'm also waiting on
 Until then, stay frosty.
 
 - [https://henryneeds.coffee](https://henryneeds.coffee)
-- [Blog](https://blog.henryneeds.coffee)
+- [Blog](https://henryneeds.coffee/blog)
 - [LinkedIn](https://linkedin.com/in/henryquinniv)
 - [Twitter](https://twitter.com/quinncuatro)

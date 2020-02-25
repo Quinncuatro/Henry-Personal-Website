@@ -67,6 +67,6 @@ Who knows how many cups of coffee this will all take. So far, we're up to five i
 I'll be back tomorrow with something actually technical. Until then, stay frosty.
 
 - [https://henryneeds.coffee](https://henryneeds.coffee)
-- [Blog](https://blog.henryneeds.coffee)
+- [Blog](https://henryneeds.coffee/blog)
 - [LinkedIn](https://linkedin.com/in/henryquinniv)
 - [Twitter](https://twitter.com/quinncuatro)

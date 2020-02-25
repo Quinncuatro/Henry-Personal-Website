@@ -244,6 +244,6 @@ Turns out that there is a LOT that you can do with flags in bash. If you have a 
 I'm Henry Quinn and this has been Fun With Flags. Stay frosty.
 
 - [https://henryneeds.coffee](https://henryneeds.coffee)
-- [Blog](https://blog.henryneeds.coffee)
+- [Blog](https://henryneeds.coffee/blog)
 - [LinkedIn](https://linkedin.com/in/henryquinniv)
 - [Twitter](https://twitter.com/quinncuatro)

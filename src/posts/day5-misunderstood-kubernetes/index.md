@@ -110,6 +110,6 @@ But more on that later. ;)
 Now that I have a better understanding of K8s, I'm going to `$ kubectl apply myWeekend.yaml`. See y'all next week. Until then, stay frosty.
 
 - [https://henryneeds.coffee](https://henryneeds.coffee)
-- [Blog](https://blog.henryneeds.coffee)
+- [Blog](https://henryneeds.coffee/blog)
 - [LinkedIn](https://linkedin.com/in/henryquinniv)
 - [Twitter](https://twitter.com/quinncuatro)

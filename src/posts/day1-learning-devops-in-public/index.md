@@ -39,6 +39,6 @@ With all of that said, I think this is going to be a really fun month. My plan i
 I'll be back tomorrow with a new post about something DevOps-y, but until then smash that "Like" button, hit "Subscribe", and stay frosty.
 
 - [https://henryneeds.coffee](https://henryneeds.coffee)
-- [Blog](https://blog.henryneeds.coffee)
+- [Blog](https://henryneeds.coffee/blog)
 - [LinkedIn](https://linkedin.com/in/henryquinniv)
 - [Twitter](https://twitter.com/quinncuatro)
