@@ -11,16 +11,16 @@ jobs:
       - Watching for patterns in all of our migrations and environments in order to bring problems to light for my team to solve.
       - Completing code, shell script, and SQL migrations to our lower environments as needed throughout the day.
   - employer: "NewHaven.io (Non-Profit)"
-    position: "Member Board of Directors"
+    position: "President, Member Board of Directors"
     time: "November 2018 - Present"
     details: |
       - Organizing events around the city for our members to network and learn new technology skills.
       - Partnering with other technology and non-profit focused organizations to help connect and align groups and individuals.
       - Creating a stronger tech and startup minded community by fostering a culture of creation and experimentation.
-      - Managing a team of developers to create and launch a new website for the group.
+      - Managing a team of developers to create and launch a new website for the group. (https://newhaven.io)
   - employer: "Administrative Office (AO) of the United States Courts"
     position: "Software Developer - Temporary Duty Assignment"
-    time: "August 2019 - April 2019"
+    time: "August 2018 - April 2019"
     details: |
       - Transitioned the Judicial Dashboard to work on an on-premise OpenShift/GlusterFS solution, cutting the deployment time down by 99.17%. This involved converting a single server buildout to a Docker solution to allow multiple developers to work concurrently on their local machines followed by another conversion to Kubernetes to facilitate an efficient rollout to 34 courts in the next six months.
       - Created, maintained, and provided enhancements to the codebase for a web application that automates the daily "getting up to speed" work for District Judges across the country, saving roughly an hour’s worth of time per judge every morning.
