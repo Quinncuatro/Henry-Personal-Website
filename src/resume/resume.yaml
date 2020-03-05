@@ -1,6 +1,6 @@
 jobs:
   - employer: "Clarity Software Solutions"
-    position: "DevOps Engineer"
+    position: "DevOps Engineer (Full Time)"
     time: "May 2019 - Present"
     details: |
       - Developing custom automation solutions through the use of Docker containers, Bash scripts, and NodeJS apps, saving approximately three man-hours per day.
@@ -11,7 +11,7 @@ jobs:
       - Watching for patterns in all of our migrations and environments in order to bring problems to light for my team to solve.
       - Completing code, shell script, and SQL migrations to our lower environments as needed throughout the day.
   - employer: "NewHaven.io (Non-Profit)"
-    position: "President, Member Board of Directors"
+    position: "President, Member Board of Directors (Volunteer)"
     time: "November 2018 - Present"
     details: |
       - Organizing events around the city for our members to network and learn new technology skills.
@@ -19,7 +19,7 @@ jobs:
       - Creating a stronger tech and startup minded community by fostering a culture of creation and experimentation.
       - Managing a team of developers to create and launch a new website for the group. (https://newhaven.io)
   - employer: "Administrative Office (AO) of the United States Courts"
-    position: "Software Developer - Temporary Duty Assignment"
+    position: "Software Developer - Temporary Duty Assignment (Shared Time)"
     time: "August 2018 - April 2019"
     details: |
       - Transitioned the Judicial Dashboard to work on an on-premise OpenShift/GlusterFS solution, cutting the deployment time down by 99.17%. This involved converting a single server buildout to a Docker solution to allow multiple developers to work concurrently on their local machines followed by another conversion to Kubernetes to facilitate an efficient rollout to 34 courts in the next six months.
@@ -29,7 +29,7 @@ jobs:
       - Interfaced with District Judges and users in the pilot courts testing the Judicial Dashboard to better understand user needs.
       - Coordinated with cross-functional stakeholders in the AO to align all teams in a common strategic direction.
   - employer: "United States District Court, District of Connecticut"
-    position: "Programmer"
+    position: "Programmer (Full Time)"
     time: "March 2017 - April 2019"
     details: |
       - Transitioned in-house legacy applications to container based architectures with Docker for easier development and deployment. The ability to develop more quickly lead to a partnership with the Case Management Solutions Office in D.C., the hiring of part time developers, and a speedier rollout of the Judicial Dashboard product.
@@ -38,8 +38,16 @@ jobs:
       - Implemented an iPad fleet and MachForm solution to shorten the process of gathering information from potential jurors, normalizing the data, and getting it into the hands of attorneys in high profile cases, by 92.5%.
       - Developed a touchscreen jury sign in kiosk to undercut the cost of Xerox’s proposed product, to be used in courthouses nationwide, by ~85%.
       - Coordinated with the district's Security Officer to keep various web servers patched and secure.
+  - employer: "LearnToProgram.TV"
+    position: "Developer in Residence / Instructor (Part Time)"
+    time: "June 2017 - August 2018"
+    details: |
+      - Kept up with the bleeding edge of the web technology horizon to help set technical direction for LTP's courses and library.
+      - Developed an eLearning course titled "Intro to Server Administration" that was distributed across multiple channels (including Udemy, Packt, and Safari).
+      - Wrote an article/workshop for the LearnToProgram.TV Magazine titled "The Future Is Docker".
+      - Instructed and mentored students in the Framework Web Development Bootcamp, both in-person and online.
   - employer: "United States District Court, District of Connecticut"
-    position: "Programmer / Analyst"
+    position: "Programmer / Analyst (Full Time)"
     time: "May 2015 - March 2017"
     details: |
       - Created full stack LAMP and Ruby on Rails web applications to automate workflows for HR and Operations. Communications involved in on and off boarding employees was cut by over 40% due to streamlining the process by which system access privileges are requisitioned and assigned.
@@ -78,9 +86,14 @@ projects:
     dockerhub: "null"
 presentations:
   - talk: "Leading a Digital Transformation at the Speed of Government"
+    conference: "DevOpsDays Austin 2020"
+    location: "Austin, TX"
+    date: "May 2020"
+    video: "null"
+  - talk: "Leading a Digital Transformation at the Speed of Government"
     conference: "DevOpsDays Seattle 2020"
     location: "Seattle, WA"
-    date: "September 2020"
+    date: "POSTPONED 2020"
     video: "null"
   - talk: "Leading a Digital Transformation at the Speed of Government"
     conference: "DevOpsDays Hartford 2019"
@@ -117,3 +130,14 @@ presentations:
     location: "Orlando, FL"
     date: "September 2016"
     video: "null"
+podcasts:
+  - title: "Episode 22: NewHaven.IO"
+    show: "Between Two Rocks"
+    date: "August 2019"
+    description: "Steve and Henry from NewHaven.IO join us to talk about the New Haven tech community, how to get into the tech scene, and what our most hated programming languages are."
+    link: "https://betweentworocks.com/episode-22-newhaven-io/"
+  - title: "Episode 101: The Water Cooler of New Haven Tech"
+    show: "CT Startup Podcast"
+    date: "February 2019"
+    description: "Introducing NewHaven.io — The water cooler of the New Haven tech scene. The creators’ ultimate goal is to bring a human element to the New Haven tech scene by creating a unified community for the people working within it. They explain to us how the current local tech scene features an expansive catalog of different types of tech and how they are working to bring this wide variety of people together."
+    link: "https://ctstartup.com/2019/02/26/episode-101-the-water-cooler-of-new-haven-tech/"

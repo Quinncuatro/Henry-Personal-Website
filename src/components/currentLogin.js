@@ -6,6 +6,7 @@ import Job from "./job"
 import Project from "./project"
 import Education from "./education"
 import Presentation from "./presentation"
+import Podcast from "./podcast"
 import Footer from "./footer"
 
 let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
@@ -77,6 +78,17 @@ const CurrentLogin = data => {
             date={presentation.date}
           />
         ))}
+        <hr />
+        <h3>Podcasts:</h3>
+        {data.allResumeYaml.edges[0].node.podcasts.map((podcast) => (
+          <Podcast
+            title={podcast.title}
+            show={podcast.show}
+            description={podcast.description}
+            date={podcast.date}
+            link={podcast.link}
+          />
+        ))}
         <Footer />
       </div>
     </div>
@@ -109,6 +121,13 @@ export default () => (
                 conference
                 location
                 date
+              }
+              podcasts {
+                title
+                show
+                date
+                description
+                link
               }
             }
           }
