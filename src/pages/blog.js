@@ -1,12 +1,14 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby";
 import Layout from "../components/Layout"
+import BusinessCard from "../components/BusinessCard"
 import PostListing from "../components/Posts/";
 import Footer from "../components/Footer"
 
 const BlogPosts = data => {
   return (
     <Layout>
+    <BusinessCard />
     <div>
       <h1>Recent Articles</h1>
       <hr />
