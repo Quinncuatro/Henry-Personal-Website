@@ -62,7 +62,7 @@ jobs:
 projects:
   - name: "Blue Albums - Work In Progress"
     year: "2019"
-    description: "Building a website to keep track of what my friends and I refer to as “blue albums,” or albums that anyone can listen to in their entirely. It was initially built with Vue to learn the framework but I’m porting it to GatsbyJS in order to learn for a different side project."
+    description: "Building a website to keep track of what my friends and I refer to as “blue albums,” or albums that anyone can listen to in their entirety. It was initially built with Vue to learn the framework but I’m porting it to GatsbyJS in order to learn for a different side project."
     technologies: "Vue.js, JavaScript, NodeJS. Transitioning to GatsbyJS."
     github: "https://github.com/Quinncuatro/blue-albums"
     dockerhub: "null"
