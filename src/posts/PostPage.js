@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/layout";
-import Footer from "../components/footer"
+import Layout from "../components/Layout";
+import Footer from "../components/Footer"
 
 export default class PostPage extends Component {
   render() {

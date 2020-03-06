@@ -1,8 +1,8 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby";
-import Layout from "../components/layout"
-import PostListing from "../components/Posts/postListing";
-import Footer from "../components/footer"
+import Layout from "../components/Layout"
+import PostListing from "../components/Posts/";
+import Footer from "../components/Footer"
 
 const BlogPosts = data => {
   return (

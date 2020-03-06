@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/layout"
-import CurrentLogin from "../components/currentLogin"
+import Layout from "../components/Layout"
+import CurrentLogin from "../components/CurrentLogin"
 import styles from "./index.module.css"
 
 export default () => (

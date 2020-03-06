@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
 import currentLoginStyles from "./currentLogin.module.css"
-import BusinessCard from "./businessCard"
-import Job from "./job"
-import Project from "./project"
-import Education from "./education"
-import Presentation from "./presentation"
-import Podcast from "./podcast"
-import Footer from "./footer"
+import BusinessCard from "../BusinessCard"
+import Job from "../Jobs"
+import Project from "../Projects"
+import Education from "../Education"
+import Presentation from "../Presentations"
+import Podcast from "../Podcasts"
+import Footer from "../Footer"
 
 let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 let months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -51,6 +51,10 @@ const CurrentLogin = data => {
           position={job.position}
           time={job.time}
           details={job.details}
+          resource_url_1={job.resource_url_1}
+          resource_title_1={job.resource_title_1}
+          resource_url_2={job.resource_url_2}
+          resource_title_2={job.resource_title_2}
         />
         ))}
         <hr />
@@ -107,6 +111,10 @@ export default () => (
                 position
                 details
                 time
+                resource_url_1
+                resource_title_1
+                resource_url_2
+                resource_title_2
               }
               projects {
                 name

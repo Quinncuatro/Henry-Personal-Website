@@ -10,14 +10,16 @@ jobs:
       - Packaging and verifying all shell scripts, cron updates, and SQL scripts for daily production migrations.
       - Watching for patterns in all of our migrations and environments in order to bring problems to light for my team to solve.
       - Completing code, shell script, and SQL migrations to our lower environments as needed throughout the day.
-  - employer: "NewHaven.io (Non-Profit)"
+  - employer: "NewHaven.IO (Non-Profit)"
     position: "President, Member Board of Directors (Volunteer)"
     time: "November 2018 - Present"
     details: |
       - Organizing events around the city for our members to network and learn new technology skills.
       - Partnering with other technology and non-profit focused organizations to help connect and align groups and individuals.
       - Creating a stronger tech and startup minded community by fostering a culture of creation and experimentation.
-      - Managing a team of developers to create and launch a new website for the group. (https://newhaven.io)
+      - Managing a team of developers to create and launch a new website for the group.
+    resource_url_1: "https://newhaven.io"
+    resource_title_1: "NewHaven.IO Website"
   - employer: "Administrative Office (AO) of the United States Courts"
     position: "Software Developer - Temporary Duty Assignment (Shared Time)"
     time: "August 2018 - April 2019"
@@ -46,6 +48,10 @@ jobs:
       - Developed an eLearning course titled "Intro to Server Administration" that was distributed across multiple channels (including Udemy, Packt, and Safari).
       - Wrote an article/workshop for the LearnToProgram.TV Magazine titled "The Future Is Docker".
       - Instructed and mentored students in the Framework Web Development Bootcamp, both in-person and online.
+    resource_url_1: "https://www.magloft.com/app/learntoprogram/#/reader/12706/364883"
+    resource_title_1: "Magazine Article"
+    resource_url_2: "https://www.udemy.com/course/introduction-to-server-administration/"
+    resource_title_2: "Udemy Course"
   - employer: "United States District Court, District of Connecticut"
     position: "Programmer / Analyst (Full Time)"
     time: "May 2015 - March 2017"
@@ -139,5 +145,5 @@ podcasts:
   - title: "Episode 101: The Water Cooler of New Haven Tech"
     show: "CT Startup Podcast"
     date: "February 2019"
-    description: "Introducing NewHaven.io — The water cooler of the New Haven tech scene. The creators’ ultimate goal is to bring a human element to the New Haven tech scene by creating a unified community for the people working within it. They explain to us how the current local tech scene features an expansive catalog of different types of tech and how they are working to bring this wide variety of people together."
+    description: "Introducing NewHaven.IO — The water cooler of the New Haven tech scene. The creators’ ultimate goal is to bring a human element to the New Haven tech scene by creating a unified community for the people working within it. They explain to us how the current local tech scene features an expansive catalog of different types of tech and how they are working to bring this wide variety of people together."
     link: "https://ctstartup.com/2019/02/26/episode-101-the-water-cooler-of-new-haven-tech/"

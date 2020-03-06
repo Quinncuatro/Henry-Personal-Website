@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import Header from "./header"
+import Header from "../Header"
 import "prismjs/themes/prism-twilight.css"
 import layoutStyles from "./layout.module.css"
 
