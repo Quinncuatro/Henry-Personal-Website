@@ -80,6 +80,8 @@ const CurrentLogin = data => {
             conference={presentation.conference}
             location={presentation.location}
             date={presentation.date}
+            video={presentation.video}
+            website={presentation.website}
           />
         ))}
         <hr />
@@ -129,6 +131,8 @@ export default () => (
                 conference
                 location
                 date
+                video
+                website
               }
               podcasts {
                 title
