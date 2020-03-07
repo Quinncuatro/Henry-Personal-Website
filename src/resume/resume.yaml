@@ -3,12 +3,12 @@ jobs:
     position: "DevOps Engineer (Full Time)"
     time: "May 2019 - Present"
     details: |
-      - Developing custom automation solutions through the use of Docker containers, Bash scripts, and NodeJS apps, saving approximately three man-hours per day.
-      - Understanding and automating processes to run Git commands to prepare our daily build packages, automating PHI scrubs in our lower environments, and automatically parsing and reporting commonly made errors in various types of files to our change control team.
-      - Experimenting with AWS Lambda in order to build a unified toolkit for our developers to both use and contribute to.
-      - Participating in discussions with senior engineers to both plan a digital transformation (a new version of our app and a cloud migration) and about company wide development standards in order to promote automation.
+      - Developing custom automation solutions through the use of Docker containers, Bash scripts, and NodeJS apps, saving approximately three man-hours per day. 
+      - Talking with coworkers doing manual work in order to better understand what parts of their workflows need to be automated. So far, this has included a series of Git commands to prepare our daily build packages, automating PHI scrubs in our lower environments, and automatically parsing and verifying various type of files that go through a change control process.
+      - Beginning to build out a developer toolkit with AWS Lambda that allows our developers to create their own automation.
+      - Participating in discussions with senior engineers to both plan a coming digital transformation and about company wide development standards that promote automation.
       - Packaging and verifying all shell scripts, cron updates, and SQL scripts for daily production migrations.
-      - Watching for patterns in all of our migrations and environments in order to bring problems to light for my team to solve.
+      - Watching for patterns in our migrations and environments so that my team knows which problems to solve.
       - Completing code, shell script, and SQL migrations to our lower environments as needed throughout the day.
   - employer: "NewHaven.IO (Non-Profit)"
     position: "President, Member Board of Directors (Volunteer)"
