@@ -7,6 +7,7 @@ export default (props) => (
     </p>
     <p>{ props.date }</p>
     <p>
+      { props.slides && <a href={ props.slides }>[ Slides ]</a> }
       { props.video && <a href={ props.video }>[ Video ]</a> }
       { props.website && <a href={ props.website }> [ Website ]</a> }
     </p>

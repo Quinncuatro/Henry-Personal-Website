@@ -82,6 +82,7 @@ const CurrentLogin = data => {
             date={presentation.date}
             video={presentation.video}
             website={presentation.website}
+            slides={presentation.slides}
           />
         ))}
         <hr />
@@ -133,6 +134,7 @@ export default () => (
                 date
                 video
                 website
+                slides
               }
               podcasts {
                 title
