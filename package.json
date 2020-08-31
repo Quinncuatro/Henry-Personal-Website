@@ -27,7 +27,6 @@
     "gatsby-remark-prismjs": "^3.3.31",
     "gatsby-remark-smartypants": "^2.1.21",
     "gatsby-source-filesystem": "^2.1.43",
-    "gatsby-source-github-pinned": "0.0.4",
     "gatsby-transformer-remark": "^2.6.53",
     "gatsby-transformer-yaml": "^2.2.20",
     "prismjs": "^1.19.0",

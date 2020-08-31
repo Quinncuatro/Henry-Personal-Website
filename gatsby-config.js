@@ -64,11 +64,5 @@ module.exports = {
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-transformer-yaml`,
-    {
-      resolve: `gatsby-source-github-pinned`,
-      options: {
-        apiToken: `${process.env.GITHUB_ACCESS_TOKEN}`
-      }
-    },
   ],
 }
