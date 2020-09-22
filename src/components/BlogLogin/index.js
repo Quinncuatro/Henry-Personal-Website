@@ -69,7 +69,7 @@ export default () => (
               }
               frontmatter {
                 category
-                date
+                date(formatString: "MMMM Do, YYYY")
                 desc
                 title
               }
