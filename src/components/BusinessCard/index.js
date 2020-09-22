@@ -6,7 +6,7 @@ let myEmail = "HenryQuinnIV" + String.fromCharCode(64) + "gmail.com";
 export default () => ( <div>
   <div>
     <h1>Henry Quinn IV</h1>
-    <h3>Automation Engineer</h3>
+    <h2>Automation Engineer</h2>
     ----------------------------------------------------------<br />
     <Link to="/"> [ Home ]</Link>
     <Link to="/blog/"> [ Blog ]</Link> 

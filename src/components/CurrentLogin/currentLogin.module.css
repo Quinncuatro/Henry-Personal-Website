@@ -7,6 +7,10 @@
 	float: left;
 }
 
+h1 {
+	font-size: 2em;
+}
+
 /* Animation */
 @-webkit-keyframes typing{
 	from { width: 100%;}
