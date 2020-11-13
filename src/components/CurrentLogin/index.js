@@ -73,7 +73,7 @@ const CurrentLogin = data => {
         <h3>Education:</h3>
         <Education />
         <hr />
-        <h3>National Presentations:</h3>
+        <h3>Conference Talks:</h3>
         {data.allResumeYaml.edges[0].node.presentations.map((presentation) => (
           <Presentation
             talk={presentation.talk}
@@ -83,6 +83,7 @@ const CurrentLogin = data => {
             video={presentation.video}
             website={presentation.website}
             slides={presentation.slides}
+            article={presentation.article}
           />
         ))}
         <hr />
@@ -135,6 +136,7 @@ export default () => (
                 video
                 website
                 slides
+                article
               }
               podcasts {
                 title
