@@ -109,6 +109,7 @@ presentations:
     conference: "All Things Open 2020"
     location: "REMOTE - Raleigh, NC"
     date: "October 2020"
+    video: "https://www.youtube.com/watch?v=MaJDxcyqGe8"
     website: "https://2020.allthingsopen.org/"
   - talk: "Leading a Digital Transformation at the Speed of Government - Lightning"
     conference: "DevOpsDays Chicago 2020"
