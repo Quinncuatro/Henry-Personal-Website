@@ -115,6 +115,7 @@ presentations:
     conference: "DevOpsDays Chicago 2020"
     location: "REMOTE - Chicago, IL"
     date: "September 2020"
+    video: "https://www.youtube.com/watch?v=sY5AUJAS1kA"
     website: "https://devopsdays.org/events/2020-chicago/welcome/"
     slides: "https://noti.st/quinncuatro/yWnk8K/leading-a-digital-transformation-at-the-speed-of-government"
   - talk: "Leading a Digital Transformation at the Speed of Government - Lightning"
