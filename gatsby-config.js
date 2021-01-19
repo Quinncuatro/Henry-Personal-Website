@@ -11,6 +11,7 @@ module.exports = {
       twitter: "quinncuatro",
     }
   },
+  pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -19,6 +20,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-plugin-ipfs`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
