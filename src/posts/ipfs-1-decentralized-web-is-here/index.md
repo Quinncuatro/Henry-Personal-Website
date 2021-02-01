@@ -1,7 +1,7 @@
 ---
 title: IPFS - The Decentralized Web Is Finally Here
-category: "Decentralized Web"
-date: "2000-01-27"
+category: "Decentralized Web, IPFS"
+date: "2021-01-27"
 type: "blog"
 desc: "Tech I wished for as a kid is finally here and the ramifications are huge."
 ---
