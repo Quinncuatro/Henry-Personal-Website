@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer"
 
@@ -14,7 +14,7 @@ export default class PostPage extends Component {
         <div>
           <h1>{post.title}</h1>
           <p>{post.date}</p>
-          <a href="../../blog">&#8656; Back to Posts</a>
+          <Link to="/blog/">&#8656; Back to Posts</Link>
           <hr />
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>
         </div>
