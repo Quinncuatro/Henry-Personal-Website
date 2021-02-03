@@ -140,7 +140,7 @@ I'm working on a project built on IPFS with a buddy of mine from GitLab.
 
 Without giving too much away: it's built with [GatsbyJS](https://www.gatsbyjs.com/), hosted on IPFS with [Fleek](https://fleek.co/), and should help folks adapt to the early days of this new web protocol.
 
-I should another blog post with some more information to share soon.
+I should have another blog post with some more information to share soon.
 
 Stay frosty.
 
