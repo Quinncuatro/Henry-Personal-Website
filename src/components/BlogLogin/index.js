@@ -37,7 +37,7 @@ const BlogPosts = data => {
       <span >{ blogLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
-      [hquinn@HenryNeeds ~]$ <span className={blogLoginStyles.typed}>&nbsp;cat blog/*<span>&nbsp;</span></span>
+      [hquinn@HenryNeeds ~]$ <span className={blogLoginStyles.typed}>&nbsp;ls blog/<span>&nbsp;</span></span>
       <div className={hidden ? blogLoginStyles.hiddenPart : ""}>
         <BusinessCard />
         <div>
