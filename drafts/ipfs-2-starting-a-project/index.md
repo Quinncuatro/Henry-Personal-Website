@@ -6,6 +6,8 @@ type: "blog"
 desc: "Tech I wished for as a kid is finally here and the ramifications are huge."
 ---
 
+what i've done so far for the ipfstumbleupon project
+
 ## It's the spring of 2011. I've already been accepted to college. Senioritis is setting in and 3OH!3 is blaring on my headphones as I sit at my desk at 2 AM on a school night...
 
 Homework long since done, I'm staring at the screen of the heavily used 17" Gateway laptop I managed to get off my boss at The Computer Shack in place of actual payment.
