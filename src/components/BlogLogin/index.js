@@ -24,7 +24,7 @@ let minutes = zerosAreHard(now.getMinutes());
 let seconds = zerosAreHard(now.getSeconds());
 let year = now.getFullYear();
 
-let blogLoginPrompt = "Current login: " + day + " " + month + " " + date + " " + hours +":" + minutes + ":" + seconds + " " + year;
+let currentLoginPrompt = "Current login: " + day + " " + month + " " + date + " " + hours +":" + minutes + ":" + seconds + " " + year;
 
 const BlogPosts = data => {
   const [hidden, setHidden] = useState(true);
@@ -34,7 +34,7 @@ const BlogPosts = data => {
 
   return (
     <div>
-      <span >{ blogLoginPrompt }<br />
+      <span >{ currentLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
       <BusinessCard />
