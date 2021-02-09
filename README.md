@@ -37,6 +37,7 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 
 * [x] De generic-ify README
 * [x] Make separate talks page
+* [x] Strip down "businessCard" to be just menu above the CLI command
 * [ ] Make separate signal boost page
 * [ ] RSS feed for blog posts?
 * [ ] Blog series pages? (https://christine.website/blog/series)
@@ -45,5 +46,4 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [ ] What do with front page?
 * [ ] Make separate contact page
 * [ ] Pull "login" out as its own component
-* [x] Strip down "businessCard" to be just menu above the CLI command
 * [ ] Pull contact info from menu for contact page
