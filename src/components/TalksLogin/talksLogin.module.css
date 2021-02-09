@@ -1,0 +1,29 @@
+.hiddenPart {
+	display: none;
+}
+
+.typed {
+	position: absolute;
+	float: left;
+}
+
+/* Animation */
+@-webkit-keyframes typing{
+	from { width: 100%;}
+  to { width: 0;}
+}
+@keyframes typing{
+	from{ width: 100%;}
+	to{ width: 0;}
+}
+
+.typed span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #222222;
+	width: 100%;
+	border-left: .1em solid transparent;
+	-webkit-animation: typing 0.8s steps(6) forwards, cursor 1s infinite;
+	animation: typing 0.8s steps(6) forwards, cursor 1s infinite;
+}

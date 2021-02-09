@@ -44,3 +44,5 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [ ] Make separate resume page
 * [ ] What do with front page?
 * [ ] Contact page
+* [ ] Pull "login" out as its own component
+* [ ] Strip down "businessCard" to be just menu above the CLI command
