@@ -42,8 +42,7 @@ const ResumeLogin = data => {
       <BusinessCard />
       <br />
       [hquinn@HenryNeeds ~]$ <span className={resumeLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
-      <div className={hidden ? resumeLoginStyles.hiddenPart : "" }>
-        <a href="https://docs.google.com/document/d/12AERamrFtIQdnkQcnZG7Bq9R2u3F0T70YYVrRLdr5ek/export?format=pdf" target="_blank" rel="noopener noreferrer"> [ Printer Friendly Resume ]</a>
+      <div className={hidden ? resumeLoginStyles.hiddenPart : ""}>
         <h1>Henry Quinn IV</h1>
         <h2>Automation Engineer</h2>
         <h3>Work Experience:</h3>
