@@ -5,8 +5,6 @@ import BusinessCard from "../BusinessCard"
 import Job from "../Jobs"
 import Project from "../Projects"
 import Education from "../Education"
-import Presentation from "../Presentations"
-import Podcast from "../Podcasts"
 import Footer from "../Footer"
 
 let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
@@ -41,9 +39,12 @@ const CurrentLogin = data => {
       <span >{ currentLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
+      <BusinessCard />
+      <br />
       [hquinn@HenryNeeds ~]$ <span className={currentLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
       <div className={hidden ? currentLoginStyles.hiddenPart : ""}>
-        <BusinessCard />
+        <h1>Henry Quinn IV</h1>
+        <h2>Automation Engineer</h2>
         <h3>Work Experience:</h3>
         {data.allResumeYaml.edges[0].node.jobs.map((job) => (
           <Job
@@ -72,31 +73,6 @@ const CurrentLogin = data => {
         <hr />
         <h3>Education:</h3>
         <Education />
-        <hr />
-        <h3>Conference Talks:</h3>
-        {data.allResumeYaml.edges[0].node.presentations.map((presentation) => (
-          <Presentation
-            talk={presentation.talk}
-            conference={presentation.conference}
-            location={presentation.location}
-            date={presentation.date}
-            video={presentation.video}
-            website={presentation.website}
-            slides={presentation.slides}
-            article={presentation.article}
-          />
-        ))}
-        <hr />
-        <h3>Podcasts:</h3>
-        {data.allResumeYaml.edges[0].node.podcasts.map((podcast) => (
-          <Podcast
-            title={podcast.title}
-            show={podcast.show}
-            description={podcast.description}
-            date={podcast.date}
-            link={podcast.link}
-          />
-        ))}
         <Footer />
       </div>
     </div>
@@ -127,23 +103,6 @@ export default () => (
                 technologies
                 github
                 dockerhub
-              }
-              presentations {
-                talk
-                conference
-                location
-                date
-                video
-                website
-                slides
-                article
-              }
-              podcasts {
-                title
-                show
-                date
-                description
-                link
               }
             }
           }

@@ -36,13 +36,14 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 ## <img alt="Notepad Emoji" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/mozilla/36/memo_1f4dd.png" width="20" /> To-Do List
 
 * [x] De generic-ify README
-* [ ] Make separate talks page
+* [x] Make separate talks page
 * [ ] Make separate signal boost page
 * [ ] RSS feed for blog posts?
 * [ ] Blog series pages? (https://christine.website/blog/series)
 * [ ] Vaporwave color theme (take hints from https://christine.website)
 * [ ] Make separate resume page
 * [ ] What do with front page?
-* [ ] Contact page
+* [ ] Make separate contact page
 * [ ] Pull "login" out as its own component
-* [ ] Strip down "businessCard" to be just menu above the CLI command
+* [x] Strip down "businessCard" to be just menu above the CLI command
+* [ ] Pull contact info from menu for contact page
