@@ -35,7 +35,9 @@ export default () => (
     <br /><br />
     <div>
       <div>
-        <h3 className={pageNotFoundLoginStyles.noSuchFile}>bash: cd: /var/www/PageNotFound: No such file or directory</h3>
+        <h3 className={pageNotFoundLoginStyles.noSuchFile}>bash: cd: /var/www/index.php: No such file or directory</h3>
+        <br />
+        <h3 className={pageNotFoundLoginStyles.noSuchFile}>404: Check out another page in the menu, though!</h3>
       </div>
       <Footer />
     </div>
