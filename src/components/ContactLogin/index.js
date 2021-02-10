@@ -53,9 +53,7 @@ const ContactPage = () => {
         <a href="https://t.me/quinncuatro" target="_blank" rel="noopener noreferrer">[ Telegram ]</a>
         <h2>Other Information</h2>
         <p>I'm super open to being contacted for speaking at conferences, on panels, or as a guest on a podcast! I just ask that your organization be one that provides equal opportunities to members of the BIPOC and LGBTQIA+ communities.</p>
-        <br /><br />
         <p>Also please reach out if you'd like to collaborate on something!</p>
-        <br/><br/>
         <p>I've always wanted to:</p>
         <ul>
           <li>Write a guest blog post</li>
