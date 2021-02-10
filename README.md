@@ -43,7 +43,7 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [x] Pull contact info from menu for contact page
 * [ ] What do with front page?
 * [x] Make separate signal boost page
-* [ ] Rename BusinessCard to "menu"
+* [x] Rename BusinessCard to "menu"
 * [ ] Vaporwave color theme (take hints from https://christine.website)
 * [ ] Clean up css module files
 * [ ] Add <p></p> tags to blocks of text

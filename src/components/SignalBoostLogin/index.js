@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
 import signalBoostLoginStyles from "./signalBoostLogin.module.css"
-import BusinessCard from "../BusinessCard"
+import MenuBar from "../MenuBar"
 import SignalBoost from "../SignalBoost"
 import Footer from "../Footer"
 
@@ -37,7 +37,7 @@ const SignalBoostPage = data => {
       <span >{ currentLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
-      <BusinessCard />
+      <MenuBar />
       <br />
       [hquinn@HenryNeeds ~]$ <span className={signalBoostLoginStyles.typed}>&nbsp;useradd<span>&nbsp;</span></span>
       <div className={hidden ? signalBoostLoginStyles.hiddenPart : ""}>

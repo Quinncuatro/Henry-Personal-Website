@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import contactLoginStyles from "./contactLogin.module.css"
-import BusinessCard from "../BusinessCard"
+import MenuBar from "../MenuBar"
 import Footer from "../Footer"
 
 let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
@@ -37,7 +37,7 @@ const ContactPage = () => {
       <span >{ currentLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
-      <BusinessCard />
+      <MenuBar />
       <br />
       [hquinn@HenryNeeds ~]$ <span className={contactLoginStyles.typed}>&nbsp;sendmail<span>&nbsp;</span></span>
       <div className={hidden ? contactLoginStyles.hiddenPart : ""}>

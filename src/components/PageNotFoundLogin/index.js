@@ -1,6 +1,6 @@
 import React from "react"
 import pageNotFoundLoginStyles from "./pageNotFoundLogin.module.css"
-import BusinessCard from "../BusinessCard"
+import MenuBar from "../MenuBar"
 import Footer from "../Footer"
 
 let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
@@ -29,7 +29,7 @@ export default () => (
     <span >{ pageNotFoundLoginPrompt }<br />
     Welcome to HenryNeeds.Coffee!</span>
     <br /><br />
-    <BusinessCard />
+    <MenuBar />
     <br />
     [hquinn@HenryNeeds ~]$ &nbsp;cd /var/www/PageNotFound
     <br /><br />

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
 import blogLoginStyles from "./blogLogin.module.css"
-import BusinessCard from "../BusinessCard"
+import MenuBar from "../MenuBar"
 import PostListing from "../Posts"
 import Footer from "../Footer"
 
@@ -37,7 +37,7 @@ const BlogPosts = data => {
       <span >{ currentLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
-      <BusinessCard />
+      <MenuBar />
       <br />
       [hquinn@HenryNeeds ~]$ <span className={blogLoginStyles.typed}>&nbsp;ls blog/<span>&nbsp;</span></span>
       <div className={hidden ? blogLoginStyles.hiddenPart : ""}>

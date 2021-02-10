@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
 import resumeLoginStyles from "./resumeLogin.module.css"
-import BusinessCard from "../BusinessCard"
+import MenuBar from "../MenuBar"
 import Job from "../Jobs"
 import Project from "../Projects"
 import Education from "../Education"
@@ -39,7 +39,7 @@ const ResumeLogin = data => {
       <span >{ currentLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
-      <BusinessCard />
+      <MenuBar />
       <br />
       [hquinn@HenryNeeds ~]$ <span className={resumeLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
       <div className={hidden ? resumeLoginStyles.hiddenPart : ""}>
