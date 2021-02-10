@@ -47,7 +47,7 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [x] Add paragraph tags to blocks of text
 * [x] Add instructions to signal boost readme
 * [x] Update home - featured projects page
-* [ ] Add menu and login to blog posts
+* [x] Add menu and login to blog posts
 * [ ] Vaporwave color theme (take hints from https://christine.website)
 
 **RE-LAUNCH**
