@@ -39,8 +39,7 @@ const TalksLogin = data => {
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
       <MenuBar />
-      <br />
-      [hquinn@HenryNeeds ~]$ <span className={talksLoginStyles.typed}>&nbsp;history<span>&nbsp;</span></span>
+      <p>[hquinn@HenryNeeds ~]$ <span className={talksLoginStyles.typed}>&nbsp;history<span>&nbsp;</span></span></p>
       <div className={hidden ? talksLoginStyles.hiddenPart : ""}>
         <h1>Talks & Podcasts</h1>
         <hr/>

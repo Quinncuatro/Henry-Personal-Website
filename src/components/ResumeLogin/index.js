@@ -40,8 +40,7 @@ const ResumeLogin = data => {
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
       <MenuBar />
-      <br />
-      [hquinn@HenryNeeds ~]$ <span className={resumeLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
+      <p>[hquinn@HenryNeeds ~]$ <span className={resumeLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span></p>
       <div className={hidden ? resumeLoginStyles.hiddenPart : ""}>
         <h1>Henry Quinn IV</h1>
         <h2>Automation Engineer</h2>

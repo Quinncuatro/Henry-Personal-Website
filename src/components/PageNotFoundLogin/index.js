@@ -30,9 +30,8 @@ export default () => (
     Welcome to HenryNeeds.Coffee!</span>
     <br /><br />
     <MenuBar />
+    <p>[hquinn@HenryNeeds ~]$ &nbsp;cd /var/www/PageNotFound</p>
     <br />
-    [hquinn@HenryNeeds ~]$ &nbsp;cd /var/www/PageNotFound
-    <br /><br />
     <div>
       <div>
         <h3 className={pageNotFoundLoginStyles.noSuchFile}>bash: cd: /var/www/index.php: No such file or directory</h3>

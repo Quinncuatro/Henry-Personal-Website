@@ -38,8 +38,7 @@ const ContactPage = () => {
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
       <MenuBar />
-      <br />
-      [hquinn@HenryNeeds ~]$ <span className={contactLoginStyles.typed}>&nbsp;sendmail<span>&nbsp;</span></span>
+      <p>[hquinn@HenryNeeds ~]$ <span className={contactLoginStyles.typed}>&nbsp;sendmail<span>&nbsp;</span></span></p>
       <div className={hidden ? contactLoginStyles.hiddenPart : ""}>
         <h1>Contact</h1>
         <hr/>
@@ -53,11 +52,11 @@ const ContactPage = () => {
         <a href="https://discordapp.com/users/Quinncuatro#0653" target="_blank" rel="noopener noreferrer">[ Discord ]</a>&nbsp;
         <a href="https://t.me/quinncuatro" target="_blank" rel="noopener noreferrer">[ Telegram ]</a>
         <h2>Other Information</h2>
-        I'm super open to being contacted for speaking at conferences, on panels, or as a guest on a podcast! I just ask that your organization be one that provides equal opportunities to members of the BIPOC and LGBTQIA+ communities.
+        <p>I'm super open to being contacted for speaking at conferences, on panels, or as a guest on a podcast! I just ask that your organization be one that provides equal opportunities to members of the BIPOC and LGBTQIA+ communities.</p>
         <br /><br />
-        Also please reach out if you'd like to collaborate on something!
+        <p>Also please reach out if you'd like to collaborate on something!</p>
         <br/><br/>
-        I've always wanted to:
+        <p>I've always wanted to:</p>
         <ul>
           <li>Write a guest blog post</li>
           <li>Have a guest write for my blog</li>

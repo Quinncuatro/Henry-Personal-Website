@@ -41,13 +41,13 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [x] Make separate resume page
 * [x] Make separate contact page
 * [x] Pull contact info from menu for contact page
-* [ ] What do with front page?
 * [x] Make separate signal boost page
 * [x] Rename BusinessCard to "menu"
+* [x] Clean up css module files
+* [x] Add <p></p> tags to blocks of text
+* [ ] Add instructions to signal boost readme
+* [ ] Update home - featured projects page
 * [ ] Vaporwave color theme (take hints from https://christine.website)
-* [ ] Clean up css module files
-* [ ] Add <p></p> tags to blocks of text
-* [ ] Add a featured projects page (include NHRR)
 
 **RE-LAUNCH**
 

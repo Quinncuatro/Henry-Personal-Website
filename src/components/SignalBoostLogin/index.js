@@ -38,8 +38,7 @@ const SignalBoostPage = data => {
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
       <MenuBar />
-      <br />
-      [hquinn@HenryNeeds ~]$ <span className={signalBoostLoginStyles.typed}>&nbsp;useradd<span>&nbsp;</span></span>
+      <p>[hquinn@HenryNeeds ~]$ <span className={signalBoostLoginStyles.typed}>&nbsp;useradd<span>&nbsp;</span></span></p>
       <div className={hidden ? signalBoostLoginStyles.hiddenPart : ""}>
         <h1>Signal Boosts</h1>
         <hr/>

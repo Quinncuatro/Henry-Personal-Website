@@ -40,8 +40,7 @@ const CurrentLogin = data => {
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
       <MenuBar />
-      <br />
-      [hquinn@HenryNeeds ~]$ <span className={currentLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
+      <p>[hquinn@HenryNeeds ~]$ <span className={currentLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span></p>
       <div className={hidden ? currentLoginStyles.hiddenPart : ""}>
         <h1>Henry Quinn IV</h1>
         <h2>Automation Engineer</h2>

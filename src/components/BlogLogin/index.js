@@ -38,8 +38,7 @@ const BlogPosts = data => {
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
       <MenuBar />
-      <br />
-      [hquinn@HenryNeeds ~]$ <span className={blogLoginStyles.typed}>&nbsp;ls blog/<span>&nbsp;</span></span>
+      <p>[hquinn@HenryNeeds ~]$ <span className={blogLoginStyles.typed}>&nbsp;ls blog/<span>&nbsp;</span></span></p>
       <div className={hidden ? blogLoginStyles.hiddenPart : ""}>
         <h1>Recent Articles</h1>
         <hr />
