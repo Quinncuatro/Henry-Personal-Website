@@ -41,13 +41,11 @@ const BlogPosts = data => {
       <br />
       [hquinn@HenryNeeds ~]$ <span className={blogLoginStyles.typed}>&nbsp;ls blog/<span>&nbsp;</span></span>
       <div className={hidden ? blogLoginStyles.hiddenPart : ""}>
-        <div>
-          <h1>Recent Articles</h1>
-          <hr />
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <PostListing key={node.id} post={node} />
-          ))}
-        </div>
+        <h1>Recent Articles</h1>
+        <hr />
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <PostListing key={node.id} post={node} />
+        ))}
         <Footer />
       </div>
     </div>

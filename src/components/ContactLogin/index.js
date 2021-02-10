@@ -41,34 +41,31 @@ const ContactPage = () => {
       <br />
       [hquinn@HenryNeeds ~]$ <span className={contactLoginStyles.typed}>&nbsp;sendmail<span>&nbsp;</span></span>
       <div className={hidden ? contactLoginStyles.hiddenPart : ""}>
-        <div>
-          <h2>Email</h2>
-          <a href={ "mailto:"+myEmail }> [ Email Me ]</a>
-
-          <h2>Social Media</h2>
-          <a href="https://github.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ GitHub ]</a>&nbsp;<a href="https://ko-fi.com/henryquinn" target="_blank" rel="noopener noreferrer">[ Ko-fi ]</a>&nbsp;
-          <a href="https://www.linkedin.com/in/henryquinniv" target="_blank" rel="noopener noreferrer">[ LinkedIn ]</a>&nbsp;
-          <a href="https://www.twitter.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ Twitter ]</a>
-
-          <h2>Chat Apps</h2>
-          <a href="https://discordapp.com/users/Quinncuatro#0653" target="_blank" rel="noopener noreferrer">[ Discord ]</a>&nbsp;
-          <a href="https://t.me/quinncuatro" target="_blank" rel="noopener noreferrer">[ Telegram ]</a>
-
-          <h2>Other Information</h2>
-          I'm super open to being contacted for speaking at conferences, on panels, or as a guest on a podcast! I just ask that your organization be one that provides equal opportunities to members of the BIPOC and LGBTQIA+ communities.
-          <br /><br />
-          Also please reach out if you'd like to collaborate on something!
-          <br/><br/>
-          I've always wanted to:
-          <ul>
-            <li>Write a guest blog post</li>
-            <li>Have a guest write for my blog</li>
-            <li>Help write a book</li>
-            <li>Help organize a tech conference in New Haven</li>
-            <li>Help write a book</li>
-          </ul>
-          <hr />
-        </div>
+        <h1>Contact</h1>
+        <hr/>
+        <h2>Email</h2>
+        <a href={ "mailto:"+myEmail }> [ Email Me ]</a>
+        <h2>Social Media</h2>
+        <a href="https://github.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ GitHub ]</a>&nbsp;<a href="https://ko-fi.com/henryquinn" target="_blank" rel="noopener noreferrer">[ Ko-fi ]</a>&nbsp;
+        <a href="https://www.linkedin.com/in/henryquinniv" target="_blank" rel="noopener noreferrer">[ LinkedIn ]</a>&nbsp;
+        <a href="https://www.twitter.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ Twitter ]</a>
+        <h2>Chat Apps</h2>
+        <a href="https://discordapp.com/users/Quinncuatro#0653" target="_blank" rel="noopener noreferrer">[ Discord ]</a>&nbsp;
+        <a href="https://t.me/quinncuatro" target="_blank" rel="noopener noreferrer">[ Telegram ]</a>
+        <h2>Other Information</h2>
+        I'm super open to being contacted for speaking at conferences, on panels, or as a guest on a podcast! I just ask that your organization be one that provides equal opportunities to members of the BIPOC and LGBTQIA+ communities.
+        <br /><br />
+        Also please reach out if you'd like to collaborate on something!
+        <br/><br/>
+        I've always wanted to:
+        <ul>
+          <li>Write a guest blog post</li>
+          <li>Have a guest write for my blog</li>
+          <li>Help write a book</li>
+          <li>Help organize a tech conference in New Haven</li>
+          <li>Help write a book</li>
+        </ul>
+        <hr />
         <Footer />
       </div>
     </div>

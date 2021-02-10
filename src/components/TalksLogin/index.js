@@ -40,10 +40,11 @@ const TalksLogin = data => {
       <br /><br />
       <BusinessCard />
       <br />
-      [hquinn@HenryNeeds ~]$ <span className={talksLoginStyles.typed}>&nbsp;echo $talks<span>&nbsp;</span></span>
+      [hquinn@HenryNeeds ~]$ <span className={talksLoginStyles.typed}>&nbsp;history<span>&nbsp;</span></span>
       <div className={hidden ? talksLoginStyles.hiddenPart : ""}>
-        <br />
-        These are all the talks and podcast episodes I've been involved with. I'll do my best to provide slides, videos, and other links when they're available.
+        <h1>Talks & Podcasts</h1>
+        <hr/>
+        <p>This is a list of the talks and podcast episodes I've been involved with. I'll do my best to provide links to slides, videos, and other assets when they're available.</p>
         <h2>Conference Talks:</h2>
         {data.allResumeYaml.edges[0].node.presentations.map((presentation) => (
           <Presentation
