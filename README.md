@@ -44,14 +44,13 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [x] Make separate signal boost page
 * [x] Rename BusinessCard to "menu"
 * [x] Clean up css module files
-* [x] Add paragraph tags to blocks of text
+* [x] Add <p></p> tags to blocks of text
 * [x] Add instructions to signal boost readme
-* [x] Update home - featured projects page
-* [ ] Add menu and login to blog posts
+* [ ] Update home - featured projects page
 * [ ] Vaporwave color theme (take hints from https://christine.website)
 
 **RE-LAUNCH**
-* [ ] Break home page into components for easier updates later
+
 * [ ] Pull "login" out as its own component
 * [ ] Blog series pages? (https://christine.website/blog/series)
 * [ ] RSS feed for blog posts?
