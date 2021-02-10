@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
-import CurrentLogin from "../components/CurrentLogin"
+import HomePage from "../components/HomePage"
 import styles from "./index.module.css"
 
 export default () => (
   <Layout>
-    <CurrentLogin />
+    <HomePage />
   </Layout>
 );
