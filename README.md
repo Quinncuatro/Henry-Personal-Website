@@ -39,14 +39,19 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [x] Make separate talks page
 * [x] Strip down "businessCard" to be just menu above the CLI command
 * [x] Make separate resume page
-* [ ] What do with front page?
 * [x] Make separate contact page
 * [x] Pull contact info from menu for contact page
-* [ ] Make separate signal boost page
+* [ ] What do with front page?
+* [x] Make separate signal boost page
+* [ ] Rename BusinessCard to "menu"
 * [ ] Vaporwave color theme (take hints from https://christine.website)
+* [ ] Clean up css module files
+* [ ] Add <p></p> tags to blocks of text
+* [ ] Add a featured projects page (include NHRR)
 
 **RE-LAUNCH**
 
 * [ ] Pull "login" out as its own component
 * [ ] Blog series pages? (https://christine.website/blog/series)
 * [ ] RSS feed for blog posts?
+* [ ] Add tags for blog filtering
