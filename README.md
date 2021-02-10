@@ -45,7 +45,7 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [x] Rename BusinessCard to "menu"
 * [x] Clean up css module files
 * [x] Add <p></p> tags to blocks of text
-* [ ] Add instructions to signal boost readme
+* [x] Add instructions to signal boost readme
 * [ ] Update home - featured projects page
 * [ ] Vaporwave color theme (take hints from https://christine.website)
 
