@@ -1,0 +1,5 @@
+people:
+  - name: "John Doe"
+    tech: "bash docker devops gatsby javascript kubernetes linux sql web"
+    github: "https://github.com/username"
+    twitter: "https://twitter.com/username"
