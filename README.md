@@ -48,10 +48,10 @@ Open the `Henry-Personal-Site` directory in your code editor of choice and explo
 * [x] Add instructions to signal boost readme
 * [x] Update home - featured projects page
 * [x] Add menu and login to blog posts
-* [ ] Vaporwave color theme (take hints from https://christine.website)
 
 **RE-LAUNCH**
 * [ ] Break home page into components for easier updates later
+* [ ] Vaporwave color theme (take hints from https://christine.website)
 * [ ] Pull "login" out as its own component
 * [ ] Blog series pages? (https://christine.website/blog/series)
 * [ ] RSS feed for blog posts?
