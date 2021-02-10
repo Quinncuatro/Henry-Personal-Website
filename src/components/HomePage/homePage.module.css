@@ -11,6 +11,14 @@ h1 {
 	font-size: 2em;
 }
 
+.projectName {
+	font-size: 1.2em;
+}
+
+.articleName {
+	font-size: 1.2em;
+}
+
 /* Animation */
 @-webkit-keyframes typing{
 	from { width: 100%;}
