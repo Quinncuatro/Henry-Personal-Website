@@ -42,9 +42,9 @@ const SignalBoostPage = data => {
       <div className={hidden ? signalBoostLoginStyles.hiddenPart : ""}>
         <h1>Signal Boosts</h1>
         <hr/>
-        <p>These awesome folks are currently looking for a job. If you or your orgs are looking for anyone with these skills, please feel free to reach out to them.</p>
-        <p>To add yourself to this list, fork <a href="https://github.com/Quinncuatro/Henry-Personal-Website" target="_blank" rel="noopener noreferrer">this website's source code</a> and submit a pull request with your edits of <a href="https://github.com/Quinncuatro/Henry-Personal-Website/src/signalboost/signalboost.yaml" target="_blank" rel="noopener noreferrer">this page</a>.</p>
-        <p>With COVID-19 raging across the world, these people are in need of a job now more than ever.</p>
+        <p>These amazing folks are currently looking for a job. If you or your orgs are hiring for roles with these skills, please feel free to reach out to them.</p>
+        <p>To add yourself to this list, fork <a href="https://github.com/Quinncuatro/Henry-Personal-Website" target="_blank" rel="noopener noreferrer">this website's source code</a> and submit a pull request with of edits to <a href="https://github.com/Quinncuatro/Henry-Personal-Website/src/signalboost/signalboost.yaml" target="_blank" rel="noopener noreferrer">this page</a>.</p>
+        <p>With COVID-19 continuing to rage across the world, these people are in need of a job now more than ever.</p>
         <hr/><hr/>
         <h2>People</h2>
         <hr/>
