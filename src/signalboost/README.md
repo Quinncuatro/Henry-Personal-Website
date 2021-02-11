@@ -3,7 +3,7 @@
 
 Hey there! If you're looking for a new gig I'd love to help out by putting some information about you on my signal boosts page.
 
-Just clone this repository, add our information to [this page](https://github.com/Quinncuatro/Henry-Personal-Website/src/signalboost/signalboost.yaml), and put in a pull request.
+Just clone this repository, add our information to [this page](https://github.com/Quinncuatro/Henry-Personal-Website/blob/master/src/signalboost/signalboost.yaml), and put in a pull request.
 
 ```markdown
 people:
