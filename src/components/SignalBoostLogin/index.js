@@ -43,7 +43,7 @@ const SignalBoostPage = data => {
         <h1>Signal Boosts</h1>
         <hr/>
         <p>These amazing folks are currently looking for a job. If you or your orgs are hiring for roles with these skills, please feel free to reach out to them.</p>
-        <p>To add yourself to this list, fork <a href="https://github.com/Quinncuatro/Henry-Personal-Website" target="_blank" rel="noopener noreferrer">this website's source code</a> and submit a pull request with of edits to <a href="https://github.com/Quinncuatro/Henry-Personal-Website/blob/master/src/signalboost/" target="_blank" rel="noopener noreferrer">this page</a>.</p>
+        <p>To add yourself to this list, fork <a href="https://github.com/Quinncuatro/Henry-Personal-Website" target="_blank" rel="noopener noreferrer">this website's source code</a> and submit a pull request with edits following <a href="https://github.com/Quinncuatro/Henry-Personal-Website/blob/master/src/signalboost/" target="_blank" rel="noopener noreferrer">these instructions</a>.</p>
         <p>With COVID-19 continuing to rage across the world, these people are in need of a job now more than ever.</p>
         <hr/><hr/>
         <h2>People</h2>
