@@ -3,3 +3,7 @@ people:
     tech: "canada entry-level bash c c++ golang java lua linux python ruby sql"
     github: "https://github.com/ansimita"
     twitter: "https://twitter.com/ansimita"
+  - name: "Gareth Brickman"
+    tech: "bash linux javascript react gatsby tailwind python sql aws amplify web"
+    github: "https://github.com/garethbrickman"
+    twitter: "https://twitter.com/garethbrickman"
