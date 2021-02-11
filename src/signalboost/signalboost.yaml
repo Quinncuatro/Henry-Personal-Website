@@ -3,3 +3,7 @@ people:
     tech: "bash docker devops gatsby javascript kubernetes linux sql web"
     github: "https://github.com/username"
     twitter: "https://twitter.com/username"
+  - name: "Gareth Brickman"
+    tech: "bash linux javascript react gatsby tailwind python sql aws amplify web"
+    github: "https://github.com/garethbrickman"
+    twitter: "https://twitter.com/garethbrickman"
