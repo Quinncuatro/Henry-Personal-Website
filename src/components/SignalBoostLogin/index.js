@@ -51,9 +51,16 @@ const SignalBoostPage = data => {
         {data.allSignalboostYaml.edges[0].node.people.map((person) => (
           <SignalBoost
             name={person.name}
+            hidden={person.hidden}
             tech={person.tech}
+            blog={person.blog}
+            devto={person.devto}
+            dribbble={person.dribbble}
             github={person.github}
+            gitlab={person.gitlab}
+            linkedin={person.linkedin}
             twitter={person.twitter}
+            website={person.website}
           />
         ))}
         <Footer />
@@ -71,9 +78,16 @@ export default () => (
             node {
               people {
                 name
+                hidden
                 tech
+                blog
+                devto
+                dribbble
                 github
+                gitlab
+                linkedin
                 twitter
+                website
               }
             }
           }
