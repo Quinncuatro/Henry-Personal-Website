@@ -2,7 +2,7 @@
 title: "${title}"
 category: "${category}"
 date: "${date(YYYY-MM-DD)}"
-type: "${type-blog-optiprox-ipfs...}"
+type: "blog"
 desc: "${one-sentence-description}"
 ---
 
