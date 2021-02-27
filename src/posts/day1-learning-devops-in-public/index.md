@@ -1,7 +1,7 @@
 ---
 title: Day 1 - Learning DevOps In Public
 category: "DevOps"
-date: "2019-07-02"
+date: "2019-07-01"
 type: "blog"
 desc: "This is the beginning of spending July 2019 learning DevOps in public."
 ---
