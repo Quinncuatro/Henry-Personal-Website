@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
 import blogLoginStyles from "./blogLogin.module.css"
-import BusinessCard from "../BusinessCard"
+import MenuBar from "../MenuBar"
 import PostListing from "../Posts"
 import Footer from "../Footer"
 
@@ -24,7 +24,7 @@ let minutes = zerosAreHard(now.getMinutes());
 let seconds = zerosAreHard(now.getSeconds());
 let year = now.getFullYear();
 
-let blogLoginPrompt = "Current login: " + day + " " + month + " " + date + " " + hours +":" + minutes + ":" + seconds + " " + year;
+let currentLoginPrompt = "Current login: " + day + " " + month + " " + date + " " + hours +":" + minutes + ":" + seconds + " " + year;
 
 const BlogPosts = data => {
   const [hidden, setHidden] = useState(true);
@@ -34,19 +34,17 @@ const BlogPosts = data => {
 
   return (
     <div>
-      <span >{ blogLoginPrompt }<br />
+      <span >{ currentLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
-      [hquinn@HenryNeeds ~]$ <span className={blogLoginStyles.typed}>&nbsp;cat blog/*<span>&nbsp;</span></span>
+      <MenuBar />
+      <p>[hquinn@HenryNeeds ~]$ <span className={blogLoginStyles.typed}>&nbsp;ls blog/<span>&nbsp;</span></span></p>
       <div className={hidden ? blogLoginStyles.hiddenPart : ""}>
-        <BusinessCard />
-        <div>
-          <h1>Recent Articles</h1>
-          <hr />
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <PostListing key={node.id} post={node} />
-          ))}
-        </div>
+        <h1>Recent Articles</h1>
+        <hr />
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <PostListing key={node.id} post={node} />
+        ))}
         <Footer />
       </div>
     </div>

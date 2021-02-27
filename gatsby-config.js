@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: `Henry Quinn`,
-    description: `The personal resume site of Henry Edward Quinn IV`,
+    description: `Blog Posts, Communities, and Projects`,
     keywords: `Henry, Quinn, DevOps, Engineer, Resume, Docker, Bash, JavaScript, JS, Automation`,
     title: `Henry Needs Coffee`,
     siteUrl: `https://henryneeds.coffee`,
@@ -13,6 +13,8 @@ module.exports = {
   },
   pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,6 +29,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 300,
+            },
+          },
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,

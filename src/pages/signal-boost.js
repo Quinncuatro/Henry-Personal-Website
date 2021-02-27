@@ -1,10 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import HomePage from "../components/HomePage"
-import styles from "./index.module.css"
+import SignalBoostLogin from "../components/SignalBoostLogin"
 
 export default () => (
   <Layout>
-    <HomePage />
+    <SignalBoostLogin />
   </Layout>
 );

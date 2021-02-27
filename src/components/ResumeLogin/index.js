@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react"
 import { graphql, StaticQuery } from "gatsby"
-import currentLoginStyles from "./currentLogin.module.css"
-import BusinessCard from "../BusinessCard"
+import resumeLoginStyles from "./resumeLogin.module.css"
+import MenuBar from "../MenuBar"
 import Job from "../Jobs"
 import Project from "../Projects"
 import Education from "../Education"
-import Presentation from "../Presentations"
-import Podcast from "../Podcasts"
 import Footer from "../Footer"
 
 let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
@@ -30,7 +28,7 @@ let year = now.getFullYear();
 
 let currentLoginPrompt = "Current login: " + day + " " + month + " " + date + " " + hours +":" + minutes + ":" + seconds + " " + year;
 
-const CurrentLogin = data => {
+const ResumeLogin = data => {
   const [hidden, setHidden] = useState(true);
   useEffect(() => {
     setTimeout(() => setHidden(false), 900)
@@ -41,9 +39,11 @@ const CurrentLogin = data => {
       <span >{ currentLoginPrompt }<br />
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
-      [hquinn@HenryNeeds ~]$ <span className={currentLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span>
-      <div className={hidden ? currentLoginStyles.hiddenPart : ""}>
-        <BusinessCard />
+      <MenuBar />
+      <p>[hquinn@HenryNeeds ~]$ <span className={resumeLoginStyles.typed}>&nbsp;whoami<span>&nbsp;</span></span></p>
+      <div className={hidden ? resumeLoginStyles.hiddenPart : ""}>
+        <h1>Henry Quinn IV</h1>
+        <h2>Automation Engineer</h2>
         <h3>Work Experience:</h3>
         {data.allResumeYaml.edges[0].node.jobs.map((job) => (
           <Job
@@ -72,31 +72,6 @@ const CurrentLogin = data => {
         <hr />
         <h3>Education:</h3>
         <Education />
-        <hr />
-        <h3>Conference Talks:</h3>
-        {data.allResumeYaml.edges[0].node.presentations.map((presentation) => (
-          <Presentation
-            talk={presentation.talk}
-            conference={presentation.conference}
-            location={presentation.location}
-            date={presentation.date}
-            video={presentation.video}
-            website={presentation.website}
-            slides={presentation.slides}
-            article={presentation.article}
-          />
-        ))}
-        <hr />
-        <h3>Podcasts:</h3>
-        {data.allResumeYaml.edges[0].node.podcasts.map((podcast) => (
-          <Podcast
-            title={podcast.title}
-            show={podcast.show}
-            description={podcast.description}
-            date={podcast.date}
-            link={podcast.link}
-          />
-        ))}
         <Footer />
       </div>
     </div>
@@ -106,7 +81,7 @@ const CurrentLogin = data => {
 export default () => (
   <StaticQuery
     query={graphql`
-      query currentLoginQuery {
+      query resumeLoginQuery {
         allResumeYaml {
           edges {
             node {
@@ -128,28 +103,11 @@ export default () => (
                 github
                 dockerhub
               }
-              presentations {
-                talk
-                conference
-                location
-                date
-                video
-                website
-                slides
-                article
-              }
-              podcasts {
-                title
-                show
-                date
-                description
-                link
-              }
             }
           }
         }
       }
     `}
-    render={CurrentLogin}
+    render={ResumeLogin}
   />
 )

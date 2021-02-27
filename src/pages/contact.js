@@ -1,10 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import HomePage from "../components/HomePage"
-import styles from "./index.module.css"
+import ContactLogin from "../components/ContactLogin"
 
 export default () => (
   <Layout>
-    <HomePage />
+    <ContactLogin />
   </Layout>
 );

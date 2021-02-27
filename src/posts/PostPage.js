@@ -1,7 +1,29 @@
 import React, { Component } from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
+import MenuBar from "../components/MenuBar"
 import Footer from "../components/Footer"
+
+let days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+let months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function zerosAreHard(n) {
+  if (n < 10) {
+    n = "0" + n;
+  }
+  return n;
+}
+
+let now = new Date();
+let day = days[ now.getDay() ];
+let month = months[ now.getMonth() ];
+let date = now.getDate();
+let hours = zerosAreHard(now.getHours());
+let minutes = zerosAreHard(now.getMinutes());
+let seconds = zerosAreHard(now.getSeconds());
+let year = now.getFullYear();
+
+let blogPostPagePrompt = "Current login: " + day + " " + month + " " + date + " " + hours +":" + minutes + ":" + seconds + " " + year;
 
 export default class PostPage extends Component {
   render() {
@@ -12,11 +34,19 @@ export default class PostPage extends Component {
     return (
       <Layout>
         <div>
+          <span >{ blogPostPagePrompt }<br />
+          Welcome to HenryNeeds.Coffee!</span>
+          <br /><br />
+          <MenuBar />
+          <p>[hquinn@HenryNeeds ~]$ cat /var/www/blog/post.md</p>
+        </div>
+        <div>
           <h1>{post.title}</h1>
           <p>{post.date}</p>
+          <Link to="/blog/">&#8656; Back to Posts</Link>
           <hr />
-          <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>
         </div>
+        <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>
         <Footer />
       </Layout>
     );

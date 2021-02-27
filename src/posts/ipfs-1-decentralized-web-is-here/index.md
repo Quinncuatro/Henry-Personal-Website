@@ -122,7 +122,7 @@ That brings me back to my earlier point:
 
 > I'm sitting at my computer: late at night, working on a project, and thinking about how lucky I am to be alive and a few years into my development career _right now_.
 
-This kind of decentralized web that lives on all of our devices and frees us from our dependencies on corporations is something me and my computer lab buddies have wanted to exist for a long time.
+This kind of decentralized web that lives on all of our devices and frees us from our dependencies on corporations is something my computer lab buddies and I have wanted to exist for a long time.
 
 Over the years since college, I've headed up tech communities, led nationwide teams of developers, and traveled around the country giving and listening to talks.
 
@@ -140,7 +140,7 @@ I'm working on a project built on IPFS with a buddy of mine from GitLab.
 
 Without giving too much away: it's built with [GatsbyJS](https://www.gatsbyjs.com/), hosted on IPFS with [Fleek](https://fleek.co/), and should help folks adapt to the early days of this new web protocol.
 
-I should another blog post with some more information to share soon.
+I should have another blog post with some more information to share soon.
 
 Stay frosty.
 

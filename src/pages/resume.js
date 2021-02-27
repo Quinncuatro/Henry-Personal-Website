@@ -1,10 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import HomePage from "../components/HomePage"
-import styles from "./index.module.css"
+import ResumeLogin from "../components/ResumeLogin"
 
 export default () => (
   <Layout>
-    <HomePage />
+    <ResumeLogin />
   </Layout>
 );
