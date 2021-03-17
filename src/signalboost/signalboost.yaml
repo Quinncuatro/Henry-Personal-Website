@@ -1,8 +1,4 @@
 people:
-  - name: "Natthan Leong"
-    tech: "canada entry-level bash c c++ golang java lua linux python ruby sql"
-    github: "https://github.com/ansimita"
-    twitter: "https://twitter.com/ansimita"
   - name: "John Doe"
     hidden: "true"
     tech: "Never gonna give you up"
