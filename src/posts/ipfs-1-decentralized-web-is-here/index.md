@@ -1,5 +1,5 @@
 ---
-title: IPFS - The Decentralized Web Is Finally Here
+title: IPFS 1 - The Decentralized Web Is Finally Here
 category: "Decentralized Web, IPFS"
 date: "2021-01-27"
 type: "blog"
