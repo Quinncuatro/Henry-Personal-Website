@@ -11,6 +11,10 @@ h1 {
 	font-size: 2em;
 }
 
+h3 {
+	padding-bottom: 6px;
+}
+
 .projectName {
 	font-size: 1.2em;
 }
