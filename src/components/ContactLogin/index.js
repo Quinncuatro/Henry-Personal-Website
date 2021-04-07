@@ -46,11 +46,7 @@ const ContactPage = () => {
         <a href={ "mailto:"+myEmail }> [ Email Me ]</a>
         <h2>Social Media</h2>
         <a href="https://github.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ GitHub ]</a>&nbsp;<a href="https://ko-fi.com/henryquinn" target="_blank" rel="noopener noreferrer">[ Ko-fi ]</a>&nbsp;
-        <a href="https://www.linkedin.com/in/henryquinniv" target="_blank" rel="noopener noreferrer">[ LinkedIn ]</a>&nbsp;
         <a href="https://www.twitter.com/quinncuatro" target="_blank" rel="noopener noreferrer">[ Twitter ]</a>
-        <h2>Chat Apps</h2>
-        <a href="https://discordapp.com/users/Quinncuatro#0653" target="_blank" rel="noopener noreferrer">[ Discord ]</a>&nbsp;
-        <a href="https://t.me/quinncuatro" target="_blank" rel="noopener noreferrer">[ Telegram ]</a>
         <h2>Other Information</h2>
         <p>I'm super open to being contacted for speaking at conferences, on panels, or as a guest on a podcast! I just ask that your organization be one that provides equal opportunities to members of the BIPOC and LGBTQIA+ communities.</p>
         <p>Also please reach out if you'd like to collaborate on something!</p>
