@@ -60,17 +60,17 @@ jobs:
       - Managed Red Hat servers running IBM Informix and US District Court CM/ECF (our docketing application) instances and prepared for our district's early adopter NextGen CM/ECF upgrade.
       - Crafted complex, multi table queries to generate reports that allowed Magistrate and District Judges on the CM/ECF Committee to decide which nature of suit case types needed to be optimized to abide by the Speedy Trial Clause.
 projects:
+  - name: "Henry Gives Coffee"
+    year: "2021"
+    description: "A web project meant to reward and support creativity on the web. Every month, people can submit their side projects that fit a theme, and cash prizes are awarded to developers chosen by myself and a handful of Patreon supporters. Most everyone at least gets a shoutout for their work."
+    technologies: "GatsbyJS, NodeJS, GraphQL, Netlify."
+    github: "https://github.com/Quinncuatro/HenryGivesCoffee"
+    dockerhub: "null"
   - name: "New Haven Relief Resources"
     year: "2020"
     description: "Built a web app to crowdsource and relay information regarding available aid in New Haven during the COVID-19 pandemic (including food banks, health/family resources, and business help). Includes a sister repository to help others set up a no-code version for their own city using only free resources."
     technologies: "JavaScript, React, GatsbyJS, AirTable, Netlify."
     github: "https://github.com/Quinncuatro/service-relief-new-haven/blob/master/package.json"
-    dockerhub: "null"
-  - name: "Blue Albums - Work In Progress"
-    year: "2019"
-    description: "Building a website to keep track of what my friends and I refer to as “blue albums,” or albums that anyone can listen to in their entirety. It was initially built with Vue to learn the framework but I’m porting it to GatsbyJS in order to learn for a different side project."
-    technologies: "Vue.js, JavaScript, NodeJS. Transitioning to GatsbyJS."
-    github: "https://github.com/Quinncuatro/blue-albums"
     dockerhub: "null"
   - name: "DEVC Webpack Playground"
     year: "2018"

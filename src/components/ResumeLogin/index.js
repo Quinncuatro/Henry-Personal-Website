@@ -58,7 +58,7 @@ const ResumeLogin = data => {
         />
         ))}
         <hr />
-        <h3>Projects:</h3>
+        <h3>Public Projects:</h3>
         {data.allResumeYaml.edges[0].node.projects.map((project) => (
           <Project
             name={project.name}
