@@ -6,7 +6,7 @@ jobs:
       - Building out a proof-of-concept using Temporal to evaluate its use as our future workflow engine. [Kubernetes, Temporal]
       - Evaluating various CI & CD platforms for use in a new internal platform.
       - Working with several teams to open up more intra-team sharing and communications within our chat platform. [MS Teams]
-      - Selected a C4 modeling framework for the company and created training materials: "Getting Started" documentation and an eLearning video series. [[PlantUML, Azure DevOps]
+      - Selected a C4 modeling framework for the company and created training materials: "Getting Started" documentation and an eLearning video series. [PlantUML, Azure DevOps]
       - Contributed to the founding documents of Acuity's future Hackathon Series. Beginning to plan our first event.
   - employer: "Clarity Software Solutions"
     position: "DevOps Engineer (Full Time)"
