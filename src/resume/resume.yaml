@@ -12,11 +12,11 @@ jobs:
     position: "DevOps Engineer (Full Time)"
     time: "May 2019 - August 2021"
     details: |
-      - Building out a modular and extendable pipeline to extract and format data from Datadog to aid our business intelligence team in developing automatic reports for national clients. [NodeJS, Docker, Kubernetes, Datadog, MariaDB]
-      - Helping manage our container-based infrastructure, including acting as the point person when mitigating customer issues tracing back to code hosted on our Kubernetes cluster, shadowing our K8s leads when they work on our cluster, aiding in spinning down an old K8s cluster as we migrate to AWS, and helping developers containerize built processes.
-      - Starting to build out a language agnostic toolchain with AWS Lambda that would allow developers to pick and choose pieces to create their own pipelines.
-      - Automating, with input from our ops and compliance teams, the process for scrubbing PHI from our lower environments, resulting in a time savings (so far) of ~95% or ~7.5 man-hours. [Bash, MariaDB]
-      - Completing code, shell script, and SQL migrations to our lower environments as needed throughout the day & verifying the same in daily change control meetings.
+      - Built out a modular and extendable pipeline to extract and format data from Datadog to aid our business intelligence team in developing automatic reports for national clients. [NodeJS, Docker, Kubernetes, Datadog, MariaDB]
+      - Helped manage the container-based infrastructure, including acting as the point person when mitigating customer issues tracing back to code hosted on our Kubernetes cluster, shadowed our K8s leads when they worked on our cluster, aided in spinning down an old K8s cluster as we migrated to AWS, and helped developers containerize built processes.
+      - Started to build out a language agnostic toolchain with AWS Lambda that would allow developers to pick and choose pieces to create their own pipelines.
+      - Automated, with input from our ops and compliance teams, the process for scrubbing PHI from our lower environments, resulting in a time savings (so far) of ~95% or ~7.5 man-hours. [Bash, MariaDB]
+      - Completed code, shell script, and SQL migrations to our lower environments as needed throughout the day & verified the same in daily change control meetings.
       - Automated the process of preparing code packages for our daily builds, resulting in a time savings of ~85% or ~2.5 man-hours. [Bash, Docker, GitHub]
       - Built a tool to parse and verify SQL scripts at various points in our change control process. [NodeJS, Docker, Kubernetes, GitHub]
       - Participated in discussions with senior engineers to both plan a digital transformation and discuss company-wide development standards that promote automation.
