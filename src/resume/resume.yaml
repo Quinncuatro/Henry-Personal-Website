@@ -1,7 +1,16 @@
 jobs:
+  - employer: "Acuity Brands Lighting"
+    position: "Senior Application Developer (Full Time)"
+    time: "September 2021 - Present"
+    details: |
+      - Building out a proof-of-concept using Temporal to evaluate its use as our future workflow engine. [Kubernetes, Temporal]
+      - Evaluating various CI & CD platforms for use in a new internal platform.
+      - Working with several teams to open up more intra-team sharing and communications within our chat platform. [MS Teams]
+      - Selected a C4 modeling framework for the company and created training materials: "Getting Started" documentation and an eLearning video series. [[PlantUML, Azure DevOps]
+      - Contributed to the founding documents of Acuity's future Hackathon Series. Beginning to plan our first event.
   - employer: "Clarity Software Solutions"
     position: "DevOps Engineer (Full Time)"
-    time: "May 2019 - Present"
+    time: "May 2019 - August 2021"
     details: |
       - Building out a modular and extendable pipeline to extract and format data from Datadog to aid our business intelligence team in developing automatic reports for national clients. [NodeJS, Docker, Kubernetes, Datadog, MariaDB]
       - Helping manage our container-based infrastructure, including acting as the point person when mitigating customer issues tracing back to code hosted on our Kubernetes cluster, shadowing our K8s leads when they work on our cluster, aiding in spinning down an old K8s cluster as we migrate to AWS, and helping developers containerize built processes.
