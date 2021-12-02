@@ -3,7 +3,7 @@ title: How A Free Web3 Project Is Helping Me Build a Locally Focused DAO On Sola
 category: "ct3_dao"
 date: "2021-12-01"
 type: "blog"
-desc: "How buildspace is helping me build a new local community."
+desc: "How buildspace is helping me build a new local web3 community."
 ---
 
 ## Back in 2017, I (and I imagine a LOT of other people on DEV.to) got really into cryptocurrencies. I made some beer money off Ethereum, followed some projects, and really dug into the kind of experiences blockchain technology was able to power.
