@@ -171,6 +171,11 @@ presentations:
     location: "Orlando, FL"
     date: "September 2016"
 podcasts:
+  - title: "Episode 148: Innovating a Web3 Future in Connecticut with CT3 DAO "
+    show: "CT Startup Podcast"
+    date: "January 2022"
+    description: "Web3 is the hot new term floating around the web describing a more decentralized internet future where big companies hold less sway. Eric speaks with Henry Quinn and Jake Burden of CT3 DAO and how they are hoping to bring some of that vision and tech to Connecticut."
+    link: "https://ctstartup.com/2022/01/19/episode-148-innovating-a-web3-future-in-connecticut-with-ct3-dao/"
   - title: "Episode 22: NewHaven.IO"
     show: "Between Two Rocks"
     date: "August 2019"
