@@ -42,7 +42,7 @@ export default class PostPage extends Component {
         </div>
         <div>
           <h1>{post.title}</h1>
-          <p>{post.date}</p>
+          <p>{post.date} || Time to Read: {data.markdownRemark.timeToRead} Minutes</p>
           <Link to="/blog/">&#8656; Back to Posts</Link>
           <hr />
         </div>
