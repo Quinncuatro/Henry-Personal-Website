@@ -27,13 +27,6 @@ let year = now.getFullYear();
 let currentLoginPrompt = "Current login: " + day + " " + month + " " + date + " " + hours +":" + minutes + ":" + seconds + " " + year;
 
 const DigitalGarden = data => {
-  const [hidden, setHidden] = useState(true);
-  const [categoryState, setCategory] = useState({
-    category: 'Decentralized Web'
-  })
-  useEffect(() => {
-    setTimeout(() => setHidden(false), 2400)
-  }, [])
 
   return (
     <div>
@@ -41,8 +34,8 @@ const DigitalGarden = data => {
       Welcome to HenryNeeds.Coffee!</span>
       <br /><br />
       <MenuBar />
-      <p>[hquinn@HenryNeeds ~]$ <span className={digitalGardenLoginStyles.typed}>&nbsp;./digital-garden.sh<span>&nbsp;</span></span></p>
-      <div className={hidden ? digitalGardenLoginStyles.hiddenPart : ""}>
+      <p>[hquinn@HenryNeeds ~]$<span>&nbsp;./digital-garden.sh<span>&nbsp;</span></span></p>
+      <div>
         <h1>Digital Garden</h1>
         <p>"An online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public." - <a href="https://nesslabs.com/digital-garden-set-up">Anne-Laure Le Cunff</a></p>
         <hr />

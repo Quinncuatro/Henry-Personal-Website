@@ -1,9 +1,9 @@
 ---
-title: Whacky Whatever Test 
-category: "Communities"
-date: "2022-04-14"
+title: "Digital Garden: Tilling the Soil"
+category: "Random"
+date: "2022-04-24"
 type: "garden"
-desc: "An abstract for the social project I want to take on for New Haven in 2021."
+desc: "An intro post outlining what I want out of a digital garden."
 ---
 
 Someone once told me that:
