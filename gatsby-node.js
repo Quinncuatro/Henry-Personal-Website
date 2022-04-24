@@ -22,7 +22,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   const pagePaths = {
-    blog: "./src/posts/PostPage.js"
+    blog: "./src/blog/PostPage.js",
+    garden: "./src/blog/PostPage.js"
   };
   return new Promise((resolve, reject) => {
     graphql(`
