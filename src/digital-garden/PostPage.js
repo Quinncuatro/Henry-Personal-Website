@@ -42,7 +42,7 @@ export default class PostPage extends Component {
         </div>
         <div>
           <h1>{post.title}</h1>
-          <Link to="/blog/">&#8656; Return to Garden</Link>
+          <Link to="/digital-garden/">&#8656; Return to Garden</Link>
           <hr />
         </div>
         <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>
