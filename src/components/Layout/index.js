@@ -7,11 +7,11 @@ import layoutStyles from "./layout.module.css"
 export default ({ children }) => (
   <div className={layoutStyles.terminalWindow}>
     <Helmet>
-      <meta name="description" content="The personal resume site for Henry Edward Quinn IV" />
+      <meta name="description" content="Henry Quinn's own little part of the internet." />
       <meta name="keywords" content="Henry, Quinn, DevOps, Engineer, Resume, Docker, Bash, GoLang, Go, JavaScript, JS, Automation" />
       <meta charset="UTF-8" />
       <html lang="en" />
-      <title>Henry Quinn - Automation Engineer</title>
+      <title>Henry Needs Coffee</title>
     </Helmet>
     <Header />
     <section className={layoutStyles.terminal}>
