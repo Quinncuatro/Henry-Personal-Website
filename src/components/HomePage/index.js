@@ -41,8 +41,8 @@ const HomePage = () => {
       <div className={hidden ? homePageStyles.hiddenPart : ""}>
         <div>
           <h1>Hi, my name is Henry!</h1>
-          <h2>I do DevOps for <a href="https://www.acuitybrands.com/" target="_blank" rel="noopener noreferrer">Acuity Brands Lighting</a>, maintain a <a href="https://techenthusiastscholarship.com" target="_blank" rel="noopener noreferrer">Tech Enthusiast Scholarship</a>, created <a href="https://newhavenreliefresources.com" target="_blank" rel="noopener noreferrer">New Haven Relief Resources</a>, and occasionally award devs with <a href="https://henrygives.coffee" target="_blank" rel="noopener noreferrer">Henry Gives Coffee</a>.</h2>
-          <h3>Some friends and I run <a href="https://newhaven.io" target="_blank" rel="noopener noreferrer">NewHaven.IO</a>.</h3>
+          <h2>I'm on the platform team at <a href="https://www.acuitybrands.com/" target="_blank" rel="noopener noreferrer">Acuity Brands Lighting</a>, maintain a <a href="https://techenthusiastscholarship.com" target="_blank" rel="noopener noreferrer">Tech Enthusiast Scholarship</a>, created <a href="https://newhavenreliefresources.com" target="_blank" rel="noopener noreferrer">New Haven Relief Resources</a>, and occasionally award devs with <a href="https://henrygives.coffee" target="_blank" rel="noopener noreferrer">Henry Gives Coffee</a>.</h2>
+          <h3>Some friends and I run <a href="https://newhaven.io" target="_blank" rel="noopener noreferrer">NewHaven.IO</a> and if you're somewhat local, I hope you'll come join our <a href="https://discord.gg/gM3zkw9MvP" target="_blank" rel="noopener noreferrer">Discord server</a>.</h3>
           <h3>I made an eLearning course called <a href="https://www.udemy.com/course/introduction-to-server-administration/" target="_blank" rel="noopener noreferrer">Intro to Server Administration</a>, and love to help people learn.</h3>
           <h3>Please <Link to="/contact/">hit me up</Link> if you want to collab on anything!</h3>
         </div>
