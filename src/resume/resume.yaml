@@ -3,11 +3,12 @@ jobs:
     position: "Senior Application Developer (Full Time)"
     time: "September 2021 - Present"
     details: |
-      - Building out a proof-of-concept using Temporal to evaluate its use as our future workflow engine. [Kubernetes, Temporal]
-      - Evaluating various CI & CD platforms for use in a new internal platform.
-      - Working with several teams to open up more intra-team sharing and communications within our chat platform. [MS Teams]
+      - Automating processes around ensuring squads have the proper access groups trickled down from their departments and business units. [Python, PowerShell, Azure Pipelines]
+      - Working with our security team to draft proposal policies around secret expirations and automated rotation.
+      - Productionized and deployed an in-house solution to monitor and alert stakeholders about client secrets that are nearing their expiration dates. [Python, Azure Pipelines, Kubernetes, ArgoCD, MS Graph, SendGrid]
       - Selected a C4 modeling framework for the company and created training materials: "Getting Started" documentation and an eLearning video series. [PlantUML, Azure DevOps]
-      - Contributed to the founding documents of Acuity's future Hackathon Series. Beginning to plan our first event.
+      - Planned and hosted the first event in a new internal hackathon series. Participants spent a week building out a proof-of-concept project using Temporal to evaluate its use as our future workflow engine. [Kubernetes, Temporal]
+      - Contributed to the founding documents of Acuity's new series of hackathons.
   - employer: "Clarity Software Solutions"
     position: "DevOps Engineer (Full Time)"
     time: "May 2019 - August 2021"
